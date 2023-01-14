@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box; /*if we add border or padding, it doesn't affect the width of it. */
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; /*don't want scroll bar to appear.*/
+    margin: 0px;
+    background-color: var(--Light-gray);
+    
+}
+
+.main {
+    background-color: var(--White);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 460px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: -2px 2px 20px rgba(0, 0, 0, 0.1), 0px 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    width: 269px;
+    height: 269px;
+    border-radius: 6px;
+}
+
+.content {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: var(--Dark-blue);
+}
+
+p {
+    font-size: 15px;
+    color: var(--Grayish-blue);
+}
+
+@media screen and (max-width: 375px) {
+    
+    .main {
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        padding-top: 10px;
+    }
+
+    .image {
+        width: 219px;
+        height: 219px;
+    }
+
+    h3{
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+        padding: 0px 5px;
+    }
+}
