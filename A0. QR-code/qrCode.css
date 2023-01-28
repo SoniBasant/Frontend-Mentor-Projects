@@ -17,66 +17,69 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden; /*don't want scroll bar to appear.*/
-    margin: 0px;
+    margin: 0;
     background-color: var(--Light-gray);
     
 }
 
-.main {
+main {
     background-color: var(--White);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 300px;
-    height: 460px;
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: -2px 2px 20px rgba(0, 0, 0, 0.1), 0px 20px 50px rgba(0, 0, 0, 0.1);
+    width: 20rem;
+    height: 30rem;
+    max-width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-top: 0.4rem;
+    /* box-shadow: -2px 2px 20px rgba(0, 0, 0, 0.1), 0px 20px 50px rgba(0, 0, 0, 0.1); */
 }
 
 .image {
-    width: 269px;
-    height: 269px;
-    border-radius: 6px;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 0.4rem;
 }
 
 .content {
     text-align: center;
 }
 
-h3 {
-    font-size: 1.3rem;
+h1 {
+    font-size: 1.4rem;
     color: var(--Dark-blue);
 }
 
 p {
     font-size: 15px;
     color: var(--Grayish-blue);
+    padding: 0 0.8rem;
 }
 
 @media screen and (max-width: 375px) {
     
-    .main {
-        width: 250px;
-        height: 400px;
-        padding: 20px;
-        padding-top: 10px;
+    main {
+        width: 15.5rem;
+        height: 25rem;
+        padding: 1.25rem;
+        padding-top: 0;
     }
 
     .image {
-        width: 219px;
-        height: 219px;
+        width: 13rem;
+        height: 13rem;
     }
 
-    h3{
-        font-size: 1.1rem;
+    h1{
+        font-size: 1rem;
     }
 
     p {
         font-size: 0.75rem;
-        padding: 0px 5px;
+        padding: 0 0.25rem;
     }
 }
