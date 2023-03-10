@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+ <link rel="stylesheet" href="productPreCard.css">
+</head>
+<body>
+
+  <main>
+    <picture>
+      <!-- to change image when screen size change -->
+      <source srcset="images/image-product-mobile.jpg" media="(max-width: 375px)" class="mobile-image">
+      <source srcset="images/image-product-desktop.jpg" class="image">
+      <img src="images/image-product-desktop.jpg" class="image"></img>
+    </picture>
+    
+
+    <div class="content">
+      <p class="card-subtitle">PERFUME</p>
+        <h5 class="card-title">Gabrielle Essence Eau De Parfum</h5>
+        <p class="card-text">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+            Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="price">
+          <span class="price-big">$149.99</span>
+          <span class="price-line-through">$169.99</span>
+        </div>
+        
+        <button type="submit" class="btn" href="#"><img src="images/icon-cart.svg" id="icon-img"></img><p>Add to Cart</p></button>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Basant Soni</a>.
+  </div>
+</body>
+</html>
