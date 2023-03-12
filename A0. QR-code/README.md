@@ -25,6 +25,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Solution URL: [Click Here](https://github.com/SoniBasant/Frontend-Mentor-Projects)
 - Live Site URL: [Click Here](https://sonibasant.github.io/Frontend-Mentor-Projects/A0.%20QR-code/qrCode.html)
 
+Like the background of the project!! I made it this with HTML and CSS. You can see the code in Codepen site-
+
+- Background URL:  [Click Here](https://codepen.io/sonibasant/full/bGxagrG)
+
 ## My process
 
 ### Built with
