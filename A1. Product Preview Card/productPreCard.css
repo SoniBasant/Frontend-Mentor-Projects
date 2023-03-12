@@ -30,6 +30,10 @@ body {
     
 }
 
+.sr-only {
+    display: none;
+}
+
 main {
     display: flex;
     align-items: center;
