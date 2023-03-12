@@ -32,6 +32,7 @@ body {
 
 .sr-only {
     display: none;
+    color: transparent;
 }
 
 main {
