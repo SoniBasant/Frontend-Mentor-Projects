@@ -33,6 +33,10 @@ Users should be able to:
 - Solution URL: [Product Preview Card Solution URL](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A1.%20Product%20Preview%20Card)
 - Live Site URL: [Live site URL](https://sonibasant.github.io/Frontend-Mentor-Projects/A1.%20Product%20Preview%20Card/productPreCard.html)
 
+Like the background of the project!! I made it this with HTML and CSS. You can see the code in Codepen site -
+
+- Background URL:  [Click Here](https://codepen.io/sonibasant/full/KKxZaeg)
+
 ## My process
 
 ### Built with
