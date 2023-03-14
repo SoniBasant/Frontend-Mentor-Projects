@@ -14,7 +14,7 @@ Hi, I am Basant Soni. I make projects with HTML, CSS and JavaScript.
 
 My Portfolio: [Portfolio Link](https://sonibasant.github.io/Portfolio-Basant-Soni/portfolio.html)
 
-Links to my online presence : [GitHub](https://github.com/SoniBasant), [Codepen](https://codepen.io/sonibasant), [Frontend Mentor](https://www.frontendmentor.io/profile/SoniBasant)
+Links to my online presence : [GitHub](https://github.com/SoniBasant), [Codepen](https://codepen.io/sonibasant), [Frontend Mentor](https://www.frontendmentor.io/profile/SoniBasant), [FreeCodeCamp](https://www.freecodecamp.org/SoniBasant)
 
 Read my articles on : [Hashnode](https://sonibasant.hashnode.dev/)
 
