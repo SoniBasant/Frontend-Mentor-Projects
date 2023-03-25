@@ -40,8 +40,9 @@ main {
 }
 
 .image {
-    width: 18rem;
-    height: 18rem;
+    /* width: 18rem;
+    height: 18rem; */
+    max-width: 100%;
     border-radius: 0.4rem;
 }
 
