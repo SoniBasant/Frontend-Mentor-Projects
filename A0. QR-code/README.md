@@ -39,6 +39,7 @@ Like the background of the project!! I made it this with HTML and CSS. You can s
 - @media query
 - Flexbox
 - Desktop-first workflow
+- Responsive Image
 
 ### What I learned
 
@@ -47,6 +48,10 @@ This is the first time I made copy of a project. It was not easy to judge width,
 I didn't use _fevicon_ till now so I got the chance to work with it. I took the help of *w3schools* for this.
 
 Also, this is the fist time I made a background design. And luckily it didn't took much time :) Now I will make more designs.
+
+#### New Changes
+
+I commit changes after learning new things like responsive image using **max-width**, use of **vw**, **%** in media query. Also give card a rotating transform. 
 
 ### Continued development
 
