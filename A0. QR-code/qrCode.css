@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700');
 
+/*  Variables Declaration */
 :root {
     --White: hsl(0, 0%, 100%);
     --Light-gray: hsl(212, 45%, 89%);
@@ -8,6 +9,7 @@
     --Dark-blue: hsl(218, 44%, 22%);
 }
 
+/* Basic Style */
 * {
     box-sizing: border-box; /*if we add border or padding, it doesn't affect the width of it. */
 }
@@ -24,26 +26,32 @@ body {
     
 }
 
+/* 
+    Components
+*/
+
 main {
     background-color: var(--White);
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     width: 20rem;
-    height: 30rem;
+    height: 31rem;
     max-width: 100%;
     border-radius: 1rem;
     padding: 1rem;
-    padding-top: 0.4rem;
-    /* box-shadow: -2px 2px 20px rgba(0, 0, 0, 0.1), 0px 20px 50px rgba(0, 0, 0, 0.1); */
+    box-shadow: -2px 2px 20px rgba(0, 0, 0, 0.1), 0px 20px 50px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s linear;
+}
+
+main:hover {
+    transform: rotate(10deg);
 }
 
 .image {
-    /* width: 18rem;
-    height: 18rem; */
+    max-height: 100%;
     max-width: 100%;
-    border-radius: 0.4rem;
+    border-radius: 0.5rem;
 }
 
 .content {
@@ -64,23 +72,19 @@ p {
 @media screen and (max-width: 375px) {
     
     main {
-        width: 15.5rem;
-        height: 25rem;
-        padding: 1.25rem;
-        padding-top: 0;
-    }
-
-    .image {
-        width: 13rem;
-        height: 13rem;
+        width: 67%;
+        height: 60%;
+        padding: 5vw;
+        border-radius: 3vw;
     }
 
     h1{
-        font-size: 1rem;
+        font-size: 5vw;
     }
 
     p {
-        font-size: 0.75rem;
-        padding: 0 0.25rem;
+        font-size: 3.2vw;
+        padding: 0 1vw;
     }
+   
 }
