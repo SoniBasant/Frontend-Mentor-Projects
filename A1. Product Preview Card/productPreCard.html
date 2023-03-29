@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="author" content="Basant Soni">
+  <meta name="keywords" content="Frontend Mentor, Frontend, product preview card, pure css, html, Basant Soni, FrontendMentor.io, sonibasant, background design/">
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png">
   
   <title>Frontend Mentor | Product preview card component</title>
@@ -13,7 +14,7 @@
 <body>
 
   <main>
-    
+    <!-- <h1 class="sr-only">.</h1> -->
     <picture>
       <!-- to change image when screen size change -->
       <source srcset="images/image-product-mobile.jpg" media="(max-width: 375px)" class="mobile-image">
@@ -23,23 +24,26 @@
     
     
     <div class="content">
-      <p class="card-subtitle">PERFUME</p>
-        <h1 class="card-title">Gabrielle Essence Eau De Parfum</h1>
-        <p class="card-text">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      <span class="product-type">PERFUME</span>
+        <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
+        <p class="product-text">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
             Perfumer-Creator for the House of CHANEL.
         </p>
-        <div class="price">
-          <span class="price-big">$149.99</span>
-          <span class="price-line-through">$169.99</span>
+        <div class="product-price">
+          <span class="price-discounted">$149.99</span>
+          <del><span class="price-original">$169.99</span></del>
         </div>
         
-        <button type="submit" class="btn"><img src="images/icon-cart.svg" alt="Cart" id="icon-img"></img>Add to Cart</button>
+        <button type="submit" class="submit-btn">
+          <img src="images/icon-cart.svg" alt="Cart" id="icon-cart"></img>
+          Add to Cart
+        </button>
     </div>
   </main>
 
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Basant Soni</a>.
+    Coded by <a href="https://github.com/SoniBasant/Frontend-Mentor-Projects" target="_blank">Basant Soni</a>.
   </footer>
 </body>
 </html>
