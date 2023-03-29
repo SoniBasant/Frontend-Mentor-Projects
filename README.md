@@ -1,9 +1,9 @@
 # Projects of Frontendmentor
 This repository contain projects I am making on *www.frontendmentor.io*.
 
-Along with the project, I also made background of code preview. Links of their respective backgrounds are in the list below as _Codepen Link_.
+Along with the project, I also made **background** of code preview. Links of their respective backgrounds are in the list below as _Codepen Link_.
 
-| No. | Project Name | Live Link | Background Code Link |
+| No. | Project Name | Project Live Link | Background Design Link |
 |-----:|---------------|---------------|---- |
 | A0. | QR Code | [Link](https://sonibasant.github.io/Frontend-Mentor-Projects/A0.%20QR-code/qrCode.html) | [Codepen](https://codepen.io/sonibasant/full/bGxagrG) |
 | A1. | Product Preview Card | [Link](https://sonibasant.github.io/Frontend-Mentor-Projects/A1.%20Product%20Preview%20Card/productPreCard.html) | [Codepen](https://codepen.io/sonibasant/full/KKxZaeg) |
