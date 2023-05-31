@@ -36,9 +36,9 @@ Users should be able to:
 
 ![Desktop-design](images/Manage-LP-snap-1.png)
 
-**Mobile Design :**
+<!-- **Mobile Design :**
 
-![Desktop-design](images/Manage-LP-snap-2.png)
+![Desktop-design](images/Manage-LP-snap-2.png) -->
 
 **Navigation on Mobile Design :**
 
