@@ -48,7 +48,7 @@ Users should be able to:
 
 - Solution URL: [Source Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A3-Manage-Landing-Page)
 
-- Live Site URL: [Live Link](https://sonibasant/github.io/Frontend-Mentor-Projects/A3-Manage-Landing-Page/index.html)
+- Live Site URL: [Live Link](https://sonibasant.github.io/Frontend-Mentor-Projects/A3-Manage-Landing-Page/index.html)
 
 ## My process
 
