@@ -37,6 +37,10 @@ Snapshots of the projects-
 
 ![Product Preview Card](A1.%20Product%20Preview%20Card/images/CodeSS.jpg)
 
+**Manage Landing Page :**
+
+![Manage Landing Page](A3-Manage-Landing-Page/images/Manage-LP-snap-4.png)
+
 ### Links
 
 | No. | Project Name          | Source Code | Live Link       |                                                                                         
