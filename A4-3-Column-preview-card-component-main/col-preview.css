@@ -1,0 +1,134 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700');
+
+* {
+    box-sizing: border-box; /*if we add border or padding, it doesn't affect the width of it. */
+}
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    color: var(--Transparent-white-paragraphs);
+    margin: 80px 23px;
+    background-color: var(--Very-light-gray);
+    
+}
+
+.cars {
+    padding: 50px 50px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 42px;
+    color: var(--Very-light-gray);
+}
+
+.about {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.btn {
+    font-family: inherit;
+    color: var(--Bright-orange);
+    background-color: var(--Very-light-gray);
+    border: 2px solid var(--Very-light-gray);
+    border-radius: 30px;
+    padding: 12px 30px;
+    margin-top: 10px;
+}
+
+.car2 .btn {
+    color: var(--Dark-cyan);
+}
+
+.car3 .btn {
+    color: var(--Very-dark-cyan);
+}
+
+.btn:hover {
+    color: var(--Very-light-gray);
+    border-color: var(--Very-light-gray);
+    background-color: var(--Bright-orange);
+}
+
+.car2 .btn:hover {
+    background-color: var(--Dark-cyan);
+}
+
+.car3 .btn:hover {
+    background-color: var(--very-Dark-cyan);
+}
+
+.car1 {
+    background-color: var(--Bright-orange);
+    border-radius: 7px 7px 0 0;
+}
+
+.car2 {
+    background-color: var(--Dark-cyan);
+}
+
+.car3 {
+    background-color: var(--Very-dark-cyan);
+    border-radius: 0 0 7px 7px;
+}
+
+@media only screen and (min-width: 376px) {
+    body {
+       align-items: center;
+       justify-content: center; 
+       padding: 0rem 13rem 0rem;
+       margin: 0;    
+    }
+    .car-profile {
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .cars {
+        padding: 3.1rem 4.1rem;
+    }
+    
+    .title {
+        font-size: 2.25rem;
+        margin: 1.7rem 0;
+    }
+    
+    .about {
+        line-height: 1.5rem;
+        font-size: 0.95rem;
+    }
+    
+    .btn {
+        border-radius: 1.8rem;
+        padding: 0.8rem 1.8rem;
+        margin-top: 3.9rem;
+    }
+    
+    .car1 {
+        border-radius: 0.6rem 0 0 0.6rem;
+    }
+    
+    .car3 {
+        border-radius: 0 0.6rem 0.6rem 0;
+    }
+}
