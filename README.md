@@ -31,11 +31,11 @@ Snapshots of the projects-
 
 **QR Code :**
 
-![QR Code](A0.%20QR-code/code/images/CodeSS.jpg)
+![QR Code](A0.%20QR-code/images/CodeSS.jpg)
 
 **Product Preview Card :**
 
-![Product Preview Card](A1.%20Product%20Preview%20Card/code/images/CodeSS.jpg)
+![Product Preview Card](A1.%20Product%20Preview%20Card/images/CodeSS.jpg)
 
 **Manage Landing Page :**
 
