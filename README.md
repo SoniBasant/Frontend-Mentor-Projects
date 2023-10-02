@@ -31,11 +31,11 @@ Snapshots of the projects-
 
 **QR Code :**
 
-![QR Code](A0.%20QR-code/images/CodeSS.jpg)
+![QR Code](A0.%20QR-code/code/images/CodeSS.jpg)
 
 **Product Preview Card :**
 
-![Product Preview Card](A1.%20Product%20Preview%20Card/images/CodeSS.jpg)
+![Product Preview Card](A1.%20Product%20Preview%20Card/code/images/CodeSS.jpg)
 
 **Manage Landing Page :**
 
@@ -43,11 +43,12 @@ Snapshots of the projects-
 
 ### Links
 
-| No. | Project Name          | Source Code | Live Link       |                                                                                         
-| --: | -------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| A0. | QR Code              | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A0.%20QR-code) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A0.%20QR-code/qrCode.html)                          | 
-| A1. | Product Preview Card |  [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A1.%20Product%20Preview%20Card) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A1.%20Product%20Preview%20Card/productPreCard.html) |
-| A3. | Manage Landing Page | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A3-Manage-Landing-Page) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A3-Manage-Landing-Page/index.html) |
+| No. | Project Name                    | Source Code                                                                                                      | Live Link                                                                                                              |
+| --: | ------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| A0. | QR Code                         | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A0.%20QR-code)                           | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A0.%20QR-code/qrCode.html)                                |
+| A1. | Product Preview Card            | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A1.%20Product%20Preview%20Card)          | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A1.%20Product%20Preview%20Card/productPreCard.html)       |
+| A3. | Manage Landing Page             | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A3-Manage-Landing-Page)                  | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A3-Manage-Landing-Page/index.html)                        |
+| A4. | 3 COlumn Preview Card Component | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A4-3-Column-preview-card-component-main) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A4-3-Column-preview-card-component-main/col-preview.html) |
 
 ## My process
 
