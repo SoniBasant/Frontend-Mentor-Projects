@@ -30,9 +30,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL : [Source Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A4-3-Column-preview-card-component-main)
+- Solution URL : [Source Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A4-3-Column-preview-card-component)
 
-- Live Site URL : [Live Link](https://sonibasant.github.io/Frontend-Mentor-Projects/A4-3-Column-preview-card-component-main/col-preview.html)
+- Live Site URL : [Live Link](https://sonibasant.github.io/Frontend-Mentor-Projects/A4-3-Column-preview-card-component/col-preview.html)
 
 ## My process
 

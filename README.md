@@ -48,7 +48,7 @@ Snapshots of the projects-
 | A0. | QR Code                         | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A0.%20QR-code)                           | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A0.%20QR-code/qrCode.html)                                |
 | A1. | Product Preview Card            | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A1.%20Product%20Preview%20Card)          | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A1.%20Product%20Preview%20Card/productPreCard.html)       |
 | A3. | Manage Landing Page             | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A3-Manage-Landing-Page)                  | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A3-Manage-Landing-Page/index.html)                        |
-| A4. | 3 COlumn Preview Card Component | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A4-3-Column-preview-card-component-main) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A4-3-Column-preview-card-component-main/col-preview.html) |
+| A4. | 3 COlumn Preview Card Component | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A4-3-Column-preview-card-component) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A4-3-Column-preview-card-component/col-preview.html) |
 
 ## My process
 
