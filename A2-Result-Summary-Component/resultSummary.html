@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--includes meta data, link of stylesheet, title of the project-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Basant Soni">
+  <meta name="keywords" content=" HTML5, pure css, html, Frontend, Frontend Mentor, FrontendMentor.io, Basant Soni, sonibasant, Result summary component, /">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link rel="stylesheet" href="resultSummary.css">
+  <script defer src="resultSummary.js"></script>
+</head>
+<body>
+
+  <!-- <main> -->
+
+    <main class="result-card">
+  
+      <div class="result-total">
+  
+        <h1>
+          Your Result
+        </h1>
+  
+        <div class="circle">
+          <h2>
+            76
+          </h2>
+  
+          <p>
+            of 100
+          </p>
+        </div>
+      
+        <p id="great">
+          Great
+        </p>
+  
+        <p id="description">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+        
+      </div>
+  
+      <div class="result-summary">
+        <h2>
+          Summary
+        </h2>
+      
+        <div class="summary">
+  
+          <div class="rows category1">
+            <div class="title">
+
+              <img src="assets/images/icon-reaction.svg" alt="Reaction Icon">
+              <p>
+                Reaction
+              </p>
+            </div>
+
+            <div class="marks">
+
+              <strong>
+                80 
+              </strong>
+              <p>
+                / 100 
+              </p>
+            </div>
+
+            <div class="quaCircle circle1"></div>
+            <div class="quaCircle circle2"></div>
+            <div class="quaCircle circle3"></div>
+            <div class="quaCircle circle4"></div>
+          </div>
+  
+          <div class="rows category2">
+            <div class="title">
+              <img src="assets/images/icon-memory.svg" alt="Memory Icon">
+              <p>
+                Memory
+              </p>
+            </div>
+
+            <div class="marks">
+              <strong>
+                92
+              </strong>
+              <p>
+                / 100
+              </p>
+            </div>
+
+            <div class="quaCircle circle1"></div>
+            <div class="quaCircle circle2"></div>
+            <div class="quaCircle circle3"></div>
+            <div class="quaCircle circle4"></div>
+          </div>
+  
+          <div class="rows category3">
+            <div class="title">
+              <img src="assets/images/icon-verbal.svg" alt="Verbal Icon">
+              <p>
+                Verbal
+              </p>
+            </div>
+
+            <div class="marks">
+              <strong>
+                61
+              </strong>
+              <p>
+                / 100
+              </p>
+            </div>
+
+            <div class="quaCircle circle1"></div>
+            <div class="quaCircle circle2"></div>
+            <div class="quaCircle circle3"></div>
+            <div class="quaCircle circle4"></div>
+          </div>
+  
+          <div class="rows category4">
+            <div class="title">
+              <img src="assets/images/icon-visual.svg" alt="Visual Icon">
+              <p>
+                Visual
+              </p>
+            </div>
+
+            <div class="marks">
+              <strong>
+                72
+              </strong>
+              <p>
+                / 100
+              </p>
+            </div>
+
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class="circle4"></div>
+          </div>
+
+          
+<!--   
+          <div class="rows category1">
+            <div class="title">
+
+              <img src="assets/images/icon-reaction.svg" alt="Reaction Icon">
+              <p>
+                Reaction
+              </p>
+            </div>
+
+            <div class="marks">
+
+              <strong>
+                80 
+              </strong>
+              <p>
+                / 100
+              </p>
+            </div>
+
+            <div class="quaCircle circle1"></div>
+            <div class="quaCircle circle2"></div>
+            <div class="quaCircle circle3"></div>
+            <div class="quaCircle circle4"></div>
+          </div>
+  
+          <div class="rows category2">
+            <div class="title">
+              <img src="assets/images/icon-memory.svg" alt="Memory Icon">
+              <p>
+                Memory
+              </p>
+            </div>
+
+            <div class="marks">
+              <strong>
+                92
+              </strong>
+              <p>
+                / 100
+              </p>
+            </div>
+
+            <div class="quaCircle circle1"></div>
+            <div class="quaCircle circle2"></div>
+            <div class="quaCircle circle3"></div>
+            <div class="quaCircle circle4"></div>
+          </div>
+  
+          <div class="rows category3">
+            <div class="title">
+              <img src="assets/images/icon-verbal.svg" alt="Verbal Icon">
+              <p>
+                Verbal
+              </p>
+            </div>
+
+            <div class="marks">
+              <strong>
+                61
+              </strong>
+              <p>
+                / 100
+              </p>
+            </div>
+
+            <div class="quaCircle circle1"></div>
+            <div class="quaCircle circle2"></div>
+            <div class="quaCircle circle3"></div>
+            <div class="quaCircle circle4"></div>
+          </div>
+  
+          <div class="rows category4">
+            <div class="title">
+              <img src="assets/images/icon-visual.svg" alt="Visual Icon">
+              <p>
+                Visual
+              </p>
+            </div>
+
+            <div class="marks">
+              <strong>
+                72
+              </strong>
+              <p>
+                / 100
+              </p>
+            </div>
+
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class="circle4"></div>
+          </div> -->
+  
+        </div>
+      
+        <button type="button" id="btn">
+          Continue
+        </button>
+      </div>
+  
+    </main>
+  <!-- </main> -->
+
+
+</body>
+</html>
