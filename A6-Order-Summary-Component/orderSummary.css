@@ -1,0 +1,224 @@
+
+/* general style */
+
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-pale-blue: hsl(225, 100%, 94%);
+  --primary-bright-blue: hsl(245, 75%, 52%);
+  --neutral-very-pale-blue: hsl(225, 100%, 98%);
+  --neutral-desaturated-blue: hsl(224, 23%, 55%);
+  --neutral-dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Red Hat Display', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(images/pattern-background-mobile.svg) no-repeat center top/ contain;
+  background-color: var(--primary-pale-blue);
+}
+
+/* main start*/
+main {
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* hero image */
+#hero-image {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+/* all lines and para */
+#about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.2rem 1.7rem;
+}
+
+/* heading and para */
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.4rem;
+}
+
+#about h1 {
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 0;
+  font-weight: 900;
+  color: var(--neutral-dark-blue);
+}
+
+#about p {
+  text-align: center;
+  font-size: 16px;
+  color: var(--neutral-desaturated-blue);
+  padding: 0 1rem;
+  line-height: 1.8rem;
+}
+
+/* icon, amount info and change */
+#payment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 9px;
+  background-color: var(--neutral-very-pale-blue);
+  padding: 1.3rem 1rem;
+  margin: 1.5rem 0;
+}
+
+#symbol-amt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#plan {
+  padding-left: 1.5rem;
+}
+
+#plan span{
+  color: var(--neutral-dark-blue);
+  font-weight: 900;
+}
+
+#plan p {
+  color: var(--neutral-desaturated-blue);
+}
+
+#change a {
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--primary-bright-blue);
+}
+
+#change a:hover,
+#change a:focus,
+#change a:active {
+  text-decoration: none;
+  color: hsl(254, 80%, 64%);
+}
+
+/* btn */
+#btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn {
+  background-color: var(--primary-bright-blue);
+  color: var(--neutral-very-pale-blue);
+  border: none;
+  width: 100%;
+  padding: 1.1rem;
+  border-radius: 9px;
+  font-size: 1rem;
+  font-weight: 700;
+  box-shadow: 0px 5px 15px 7px hsla(245, 75%, 52%, 0.2);
+}
+
+#btn:hover, 
+#btn:focus, 
+#btn:active {
+  background-color: hsl(254, 80%, 64%);
+}
+
+#btns a {
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+  color: var(--neutral-desaturated-blue);
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+#btns a:hover,
+#btns a:focus,
+#btns a:active {
+  color: var(--neutral-dark-blue);
+}
+
+/* for screen bigger than 375px */
+@media screen and (min-width:375px) {
+  body {
+    overflow-x: hidden;
+    background: url(images/pattern-background-desktop.svg) no-repeat center top/ contain;
+    background-color: var(--primary-pale-blue);
+  }
+  
+  /* main start*/
+  main {
+    width: 420px;
+    border-radius: 20px;
+  }
+  
+  /* hero image */
+  #hero-image {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  /* all lines and para */
+  #about-container {
+    padding: 1.2rem 2.4rem;
+  }
+  
+  /* heading and para */
+  #about {
+    line-height: 1.4rem;
+  }
+  
+  #about h1 {
+    font-size: 1.7rem;
+    margin: 1rem;
+    padding: 0;
+  }
+  
+  #about p {
+    font-size: 16px;
+    padding: 0 1.2rem;
+    line-height: 1.8rem;
+  }
+  
+  /* icon, amount info and change */
+  #payment {
+    border-radius: 13px;
+  }
+  
+  #change {
+    font-size: 14px;
+  }
+  
+  /* btn */
+  #btn {
+    border-radius: 13px;
+    font-size: 1rem;
+  }
+  
+}
