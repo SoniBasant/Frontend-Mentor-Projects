@@ -51,6 +51,8 @@ Snapshots of the projects-
 | A3. | Manage Landing Page             | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A3-Manage-Landing-Page)             | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A3-Manage-Landing-Page/index.html)                   |
 | A4. | 3 Column Preview Card Component | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A4-3-Column-preview-card-component) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A4-3-Column-preview-card-component/col-preview.html) |
 | A5. | Single Price Grid Component     | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A5-Single-Price-Grid-Component)     | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A5-Single-Price-Grid-Component/singlePriceGrid.html) |
+| A6. | Order Summary Component     | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A6-Order-Summary-Component)     | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A6-Order-Summary-Component/orderSummary.html) |
+
 
 ## My process
 
