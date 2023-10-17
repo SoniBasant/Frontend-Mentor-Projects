@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Basant Soni">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta name="keywords" content=" HTML5, pure css, html, Frontend, Frontend Mentor, FrontendMentor.io, Basant Soni, sonibasant, stats preview card component, /">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="stylesheet" href="statsPreview.css">
+</head>
+<body>
+
+  <main>
+    <picture id="image-container">
+      <source media="(max-width: 620px)" srcset="images/image-header-mobile.jpg" class="mobile-image">
+      <source srcset="images/image-header-desktop.jpg" class="desktop-image">
+      <img src="images/image-header-desktop.jpg" alt="Image of some people working on laptops while sitting in a office" id="img"></img>
+      <div id="colorBG-overlay"></div>
+    </picture>
+
+    <section id="card-container">
+      <h1>
+        Get <span>insights</span> that help your business grow.
+      </h1>
+
+      <p>
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.
+      </p>
+
+      <section id="stats-container">
+        
+        <div class="stats">
+          <h2>10k+</h2>
+          <p>companies</p>
+        </div>
+
+        <div class="stats">
+          <h2>314</h2>
+          <p>templates</p>
+        </div>
+
+        <div class="stats">
+          <h2>12m+</h2>
+          <p>queries</p>
+        </div>
+      </section>
+    </section>
+    
+  </main>
+
+</body>
+</html>
