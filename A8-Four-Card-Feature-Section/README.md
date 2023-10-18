@@ -29,10 +29,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source Code]()
+- Solution URL: [Source Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A8-Four-Card-Feature-Section)
 
-- Live Site URL: [Live Link]()
-
+- Live Site URL: [Live Link](https://sonibasant.github.io/Frontend-Mentor-Projects/A8-Four-Card-Feature-Section/fourCard.html)
 ## My process
 
 ### Built with
