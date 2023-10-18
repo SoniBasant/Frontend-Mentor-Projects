@@ -1,0 +1,189 @@
+
+/* General style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+    
+  /* primary colors */
+  --primary-Red: hsl(0, 78%, 62%);
+  --primary-Cyan: hsl(180, 62%, 55%);
+  --primary-Orange: hsl(34, 97%, 64%);
+  --primary-Blue: hsl(212, 86%, 64%);
+  
+  /* neutral colors */
+  --neutral-Very-Dark-Blue: hsl(234, 12%, 34%);
+  --neutral-Grayish-Blue: hsl(229, 6%, 66%);
+  --neutral-Very-Light-Gray: hsl(0, 0%, 98%);   
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--neutral-Very-Light-Gray);
+  overflow-x: hidden;
+  color: var(--neutral-Grayish-Blue);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 1rem;
+  text-align: center;
+}
+
+/* header */
+.card-container header h1 {
+  font-size: 24px;
+  font-weight: 200;
+  color: var(--neutral-Very-Dark-Blue);
+}
+
+.card-container header h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--neutral-Very-Dark-Blue);
+}
+
+.card-container header p {
+  font-size: 16px;
+  padding: 0.5rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+
+/* cards */
+
+.text-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 2.5rem;
+  padding: 0.5rem;
+  gap: 1.5rem;
+}
+
+.text-column {
+  display: grid;
+  grid-template-columns: 1fr;  
+  gap: 1.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem;
+  border-top: 3.5px solid;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 1px 8px 18px 1px hsla(212, 48%, 31%, 0.1), -1px 8px 18px 1px hsla(212, 86%, 64%, 0.1);
+}
+
+/* border color */
+.text-container .supervisor {
+  border-color: var(--primary-Cyan);
+}
+
+.text-container .team {
+  border-color: var(--primary-Red);
+}
+
+.text-container .karma {
+  border-color: var(--primary-Orange);
+}
+
+.text-container .calculator {
+  border-color: var(--primary-Blue);
+}
+
+/* card content */
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.about h3 {
+  font-weight: 600;
+  color: var(--neutral-Very-Dark-Blue);
+  font-size: 1.5rem;
+}
+
+.about p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.icon {
+  margin: 2rem 0.5rem 0.5rem auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* for desktop screen greater than 1200px */
+
+@media only screen and (min-width:1200px){
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* header */
+  .card-container header h1 {
+    font-size: 38px;
+  }
+  
+  .card-container header h2 {
+    font-size: 38px;
+  }
+  
+  .card-container header p {
+    max-width: 600px;
+  }
+  
+  /* cards */
+  .text-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 2.5rem;
+  }
+
+  .cards {
+    margin-bottom: 1.4rem;
+    max-width: 355px;
+  }
+  
+  /* card content */
+  .about {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .about h3 {
+    font-weight: 600;
+    color: var(--neutral-Very-Dark-Blue);
+    font-size: 1.5rem;
+  }
+  
+  .about p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .icon {
+    margin: 2rem 0.5rem 0.5rem auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+}
