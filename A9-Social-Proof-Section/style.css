@@ -120,13 +120,13 @@ body {
   margin-left: 0.5rem;
 }
 
-.feedback-card .head #name {
+.feedback-card .head .name {
   font-size: 1.2rem;
   font-weight: var(--fw-bold);
   margin-bottom: 0.4rem;
 }
 
-.feedback-card .head #designation {
+.feedback-card .head .designation {
   color: var(--designation);
   font-weight: var(--fw-normal);
   font-size: 1.2rem;
@@ -254,12 +254,12 @@ body {
     margin-left: 0.5rem;
   }
 
-  .feedback-card .head #name {
+  .feedback-card .head .name {
     font-size: 1.2rem;
     margin-bottom: 0.4rem;
   }
 
-  .feedback-card .head #designation {
+  .feedback-card .head .designation {
     font-size: 1.2rem;
   }
 
