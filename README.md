@@ -54,6 +54,7 @@ Snapshots of the projects-
 | A6. | Order Summary Component     | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A6-Order-Summary-Component)     | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A6-Order-Summary-Component/orderSummary.html) |
 | A7. | Stats Preview Card Component    | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A7-Stats-Preview-Card-Component)    | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A7-Stats-Preview-Card-Component/statsPreview.html)   |
 | A8. | Four Card Feature Section       | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A8-Four-Card-Feature-Section)       | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A8-Four-Card-Feature-Section/fourCard.html)          |
+| A9. | Social Proof Section       | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A9-Social-Proof-Section)       | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A9-Social-Proof-Section/index.html)          |
 
 
 ## My process
@@ -65,7 +66,7 @@ Snapshots of the projects-
 - Semantic HTML5 markup
 - CSS custom properties / Tailwind
 - Flexbox
-- Desktop-first workflow
+- Some Desktop-first workflow, some Mobile-first workflow
 
 ### What I learned
 
