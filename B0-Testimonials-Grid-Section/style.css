@@ -1,0 +1,242 @@
+
+/* General style */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root {
+  
+  /* ### Primary */
+  --daniel: hsl(263, 55%, 52%);
+  --jonathan: hsl(217, 19%, 35%);
+  --patrick: hsl(219, 29%, 14%);
+  --jeanette-kira-white: hsl(0, 0%, 100%);
+
+  /* ### Neutral */
+  --Light-gray: hsl(0, 0%, 81%);
+  --Light-grayish-blue-bodyBG: hsl(210, 46%, 95%);
+
+  /* font weight */
+  --fw-small: 500;
+  --fw-medium: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  overflow-x: hidden;
+  background-color: var(--Light-grayish-blue-bodyBG);
+}
+
+/* main container */
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 3rem 1.3rem;
+}
+
+.cards {
+  padding: 1.6rem 2rem;
+  border-radius: 10px;
+}
+
+.profile {
+  display: inline-flex;
+  align-items: center;
+}
+
+.image {
+  border-radius: 50%;
+  transform: scale(0.5);
+  margin-left: -1rem;
+}
+
+/* border around some images */
+.card1 .image {
+  border: 5px solid hsla(0, 0%, 81%, 0.5);;
+}
+
+.card4 .image {
+  border: 5px solid var(--daniel);
+}
+
+.person-name {
+  font-weight: var(--fw-medium);
+}
+
+/* name color */
+.card1 .person-name,
+.card2 .person-name,
+.card4 .person-name {
+  color: var(--Light-gray);
+}
+
+.card3 .person-name,
+.card5 .person-name {
+  color: var(--jonathan);
+}
+
+/* verified color */
+.card1 .verified,
+.card2 .verified,
+.card4 .verified {
+  color: hsla(0, 0%, 81%, 0.5);
+}
+
+.card3 .verified,
+.card5 .verified {
+  color: hsla(217, 19%, 35%, 0.5);
+}
+
+/* review */
+.card1 .review,
+.card2 .review,
+.card4 .review {
+  color: var(--jeanette-kira-white);
+}
+
+.card3 .review,
+.card5 .review {
+  color: var(--jonathan);
+}
+
+/* quote */
+.card1 .quote,
+.card2 .quote,
+.card4 .quote {
+  color: hsla(0, 0%, 81%, 0.7);
+}
+
+.card3 .quote,
+.card5 .quote {
+  color: hsla(217, 19%, 35%, 0.7);
+}
+
+/* BG color */
+.card1 {
+  background-color: var(--daniel);
+}
+
+.card2 {
+  background-color: var(--jonathan);
+}
+
+.card3, .card5 {
+  background-color: var(--jeanette-kira-white);
+}
+
+.card4 {
+  background-color: var(--patrick);
+}
+
+/* double quatation BG in card1 */
+.card1 {
+  background-image: url('images/bg-pattern-quotation.svg');
+  background-size: 115px 115px;
+  background-repeat: no-repeat;
+  background-position: 198px 0px;
+}
+
+/* styles */
+.person-name {
+  font-size: 12px;
+}
+
+.verified {
+  font-size: 10px;
+}
+
+.review {
+  font-weight: var(--fw-medium);
+  font-size: 20px;
+  padding-right: 0.5rem;
+  margin-top: -0.4rem;
+  margin-bottom: 1rem;
+}
+
+.quote {
+  font-size: 13px;
+  padding-right: 1.345rem;
+  line-height: 1.2rem;
+}
+
+/* for screen greater than 1300px */
+@media only screen and (min-width: 1250px) {
+  
+  /* change component structure */
+  .card1 {
+    grid-area: card1;
+  }
+  
+  .card2 {
+    grid-area: card2;
+  }
+  
+  .card3 {
+    grid-area: card3;
+  }
+  
+  .card4 {
+    grid-area: card4;
+  }
+  
+  .card5 {
+    grid-area: card5;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'card1 card1 card2 card5'
+    'card3 card4 card4 card5';
+    margin: 6rem 10.8rem;
+    gap: 1.5rem;
+  }
+
+  .cards {
+    padding: 1.5rem 1.9rem;
+    padding-bottom: 1.4rem;
+  }
+
+  /* double quatation BG in card1 */
+  .card1 {
+    background-size: 109px 100px;
+    background-position: 350px 0px;
+  }
+
+  /* styles */
+  .profile {
+    margin-top: -1rem;
+  }
+  .person-name {
+    font-size: 12px;
+  }
+
+  .verified {
+    font-size: 10px;
+  }
+
+  .review {
+    font-weight: var(--fw-medium);
+    font-size: 20px;
+    padding-right: 0rem;
+    margin-top: -0.4rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .quote {
+    font-size: 13px;
+    padding-right: 0rem;
+    line-height: 1.1rem;
+    margin: 0;
+    padding: 0;
+  }
+}
