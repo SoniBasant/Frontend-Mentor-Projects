@@ -1,0 +1,326 @@
+
+/* General style */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root {
+
+  /* ### Primary */
+  --primary-Blue: hsl(223, 87%, 63%);
+
+  /* ### Secondary */
+  --secondary-Pale-Blue: hsl(223, 100%, 88%);
+  --secondary-Light-Red: hsl(354, 100%, 66%);
+
+  /* ### Neutral */
+  --neutral-Gray: hsl(0, 0%, 59%);
+  --neutral-Very-Dark-Blue: hsl(209, 33%, 12%);
+
+  /* colours I added */
+  --white: #fff;
+  --light-green: rgba(66, 199, 79, 0.7);
+  --dark-green: rgb(66, 199, 79);
+  --transparent-red: hsla(354, 100%, 66%, 0.7);
+  --transparent-gray: hsla(222, 42%, 76%, 0.7);
+
+  /* font-weight */
+  --fw-small: 300;
+  --fw-medium: 600;
+  --fw-large: 700;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Libre Franklin', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  margin: auto 1.8rem;
+  overflow-x: hidden;
+}
+
+/* header image */
+#ping-img {
+  padding-bottom: 2rem;
+  max-width: 100%;
+  transform: scale(0.75);
+  height: auto;
+  margin-top: 5rem;
+}
+
+/* headings */
+.title {
+  font-size: 20px;
+  font-weight: var(--fw-small);
+  color: var(--neutral-Gray);
+  padding-bottom: 1rem;
+}
+
+.title span {
+  font-weight: var(--fw-large);
+  color: var(--neutral-Very-Dark-Blue);
+}
+
+.sub-title {
+  font-size: 12px;
+  font-weight: var(--fw-medium);
+  color: var(--neutral-Gray);
+  padding-bottom: 1.6rem;
+}
+
+/* email input and button section */
+.email-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 90%;
+  padding-bottom: 4rem;
+}
+
+.email {
+  width: 100%;
+  border: 1.4px solid var(--secondary-Pale-Blue);
+  border-radius: 25px;
+  padding: 0.8rem 2rem;
+  outline-color: var(--primary-Blue);
+  color: var(--neutral-Gray);
+}
+
+.email.redBorder {
+  border-width: 1.5px;
+  border-color: var(--secondary-Light-Red);
+  /* outline come into scene when we click on input */
+  outline-color: var(--secondary-Light-Red);
+}
+
+.email.accept {
+  border-color: var(--dark-green);
+  outline-color: var(--dark-green);
+}
+
+.email::placeholder {
+  font-weight: var(--fw-small);
+  color: var(--transparent-gray);
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+}
+
+small {
+  font-style: italic;
+  font-size: 11px;
+  color: var(--transparent-red);
+  font-weight: var(--fw-medium);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  display: none;
+}
+
+small.errorMsg {
+  display: block;
+}
+
+small.acceptMsg {
+  display: block;
+  color: var(--light-green);
+}
+
+#btn {
+  border-radius: 25px;
+  border: none;
+  background-color: var(--primary-Blue);
+  color: var(--white);
+  padding: 0.8rem 2rem;
+  font-weight: var(--fw-medium);
+  font-family: inherit;
+  box-shadow: 2px 4px 10px 1px hsla(223, 87%, 63%, 0.4);
+}
+
+/* image of dashboard */
+#dashboard {
+  max-width: 100%;
+  height: auto;
+}
+
+/* social icons and disclaimer */
+footer {
+  margin-top: 35%;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.fab {
+  color: var(--primary-Blue);
+  border: 1px solid var(--secondary-Pale-Blue);
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.social .fa-facebook-f {
+  padding: 8px 12px;
+}
+
+.disclaimer {
+  color: var(--neutral-Gray);
+  font-size: 10px;
+}
+
+/*hover states  */
+#btn:hover {
+  background-color: hsla(223, 87%, 63%, 0.8);
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+
+.fab:hover {
+  background-color: var(--primary-Blue);
+  color: var(--white);
+  transition: 0.1s linear;
+  cursor: pointer;
+}
+
+/* for screen more than 1300px */
+@media only screen and (min-width: 1024px) {
+
+  body {
+    margin: 0 1.8rem;
+    padding-bottom: 0rem;
+  }
+  
+  /* header image */
+  #ping-img {
+    margin-top: 48px;
+    padding-bottom: 30px;
+  }
+  
+  /* headings */
+  .title {
+    font-size: 32px;
+    padding-bottom: 12px;
+  }
+  
+  .sub-title {
+    font-size: 14px;
+    font-weight: var(--fw-small);
+    color: var(--neutral-Very-Dark-Blue);
+    padding-bottom: 24px;
+  }
+  
+  /* email input and button section */
+  .email-container {
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 32px;
+  }
+  
+  .email {
+    border: 1.4px solid var(--secondary-Pale-Blue);
+    border: 1px solid var(--transparent-gray);
+    padding: 10px 20px;
+    width: 290px;
+  }
+
+  .email::placeholder {
+    font-size: 12px;
+  }
+  
+  small {
+    font-size: 10px;
+    margin-bottom: 0rem;
+    display: block;
+    /* in mobile screen, we have "display:none"
+    so to display it here, we need to use
+    "display:block" */
+    visibility: hidden;
+    /* to not show message but keep place
+    occupied */
+    padding-left: 20px;
+  }
+  
+  small.errorMsg {
+    display: flex;
+    /* to make message left align */
+    visibility: visible;
+    /* to make message visible */
+  }
+  
+  small.acceptMsg {
+    display: flex;
+    visibility: visible;
+  }
+  
+  #btn {
+    width: 135px;
+    padding: 12px 20px;
+    font-size: 12px;
+  }
+
+  #btn:active {
+    transform: translateY(2px) scale(0.99);
+    transition: 0.1s all ease-in-out;
+  }
+  
+  /* image of dashboard */
+  #dashboard {
+    width: 37%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* social icons and disclaimer */
+  footer {
+    margin-top: 35px;
+    margin-bottom: 1.5rem;
+    /* margin-bottom: 0rem; */
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .fab {
+    color: var(--primary-Blue);
+    border: 1px solid var(--secondary-Pale-Blue);
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
+  }
+  
+  .social .fa-facebook-f {
+    padding: 5px 7px;
+  }
+  
+  .disclaimer {
+    color: var(--neutral-Gray);
+    font-size: 9px;
+  }
+  
+}
