@@ -56,6 +56,7 @@ Snapshots of the projects-
 | A8. | Four Card Feature Section       | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A8-Four-Card-Feature-Section)       | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A8-Four-Card-Feature-Section/fourCard.html)          |
 | A9. | Social Proof Section       | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A9-Social-Proof-Section)       | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A9-Social-Proof-Section/index.html)          |
 | B0. | Testimonials Grid Section            | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B0-Testimonials-Grid-Section)            | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B0-Testimonials-Grid-Section/index.html)                  |
+| B1. | Testimonials Grid Section       | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B1-Ping-Coming-Soon-Page)           | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B1-Ping-Coming-Soon-Page/index.html)                 |
 
 
 ## My process
