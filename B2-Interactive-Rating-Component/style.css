@@ -1,0 +1,251 @@
+
+/* General style */
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+
+  /* ### Primary */
+  --primary-Orange: hsl(25, 97%, 53%);
+
+  /* ### Neutral */
+  --neutral-White: hsl(0, 0%, 100%);
+  --neutral-Light-Grey: hsl(217, 12%, 63%);
+  --neutral-Medium-Grey: hsl(216, 12%, 54%);
+  --neutral-Dark-Blue: hsl(213, 19%, 18%);
+  --neutral-Very-Dark-Blue: hsl(216, 12%, 8%);
+
+  /* color I add */
+  --star-num-bg: rgba(45, 52, 60, 0.868);
+
+  /* font-weight */
+  --fw-small: 400;
+  --fw-medium: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Overpass', sans-serif;
+  background-color: var(--neutral-Very-Dark-Blue);
+  margin: auto 1.2rem;
+  overflow-x: hidden;
+}
+
+/* Rating card start */
+.rating-container {
+  background: linear-gradient(to bottom,hsla(214, 22%, 21%, 0.7), hsla(214, 22%, 21%, 0.5));
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding: 19px 16px 27px;
+  border-radius: 14px;
+}
+
+.star-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  width: 20px;
+  height: 20px;
+  background-color: var(--star-num-bg);
+  border-radius: 50%;
+}
+
+.star-icon {
+  width: 100%;
+  height: auto;
+}
+
+.title1 {
+  color: hsla(0, 0%, 100%, 0.85);
+  margin: 1rem 0 1rem;
+  font-size: 25.5px;
+}
+
+.content1 {
+  color: var(--neutral-Light-Grey);
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: var(--fw-small);
+  margin-bottom: 22px;
+}
+
+.ratings {
+  display: flex;
+  gap: 1.4rem;
+  margin-bottom: 25px;
+}
+
+.num {
+  color: var(--neutral-Medium-Grey);
+  background-color: var(--star-num-bg);
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  border: none;
+  font-size: 15px;
+  font-weight: var(--fw-medium);
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.85);
+  font-weight: var(--fw-medium);
+  font-size: 15px;
+  font-family: inherit;
+  letter-spacing: 1.5px;
+  background-color: var(--primary-Orange);
+  padding: 13.4px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  outline: none;
+}
+
+/* hover, active state */
+.num:hover {
+  color: hsla(0, 0%, 100%, 0.85);
+  background-color: var(--neutral-Medium-Grey);
+}
+
+.num:active {
+  color: hsla(0, 0%, 100%, 0.85);
+  background-color: var(--primary-Orange);
+}
+
+.btn:hover,
+.btn:active {
+  color: var(--primary-Orange);
+  background-color: var(--neutral-White);
+}
+/* Rating card end */
+
+/*  */
+
+/* Thank you card start */
+.thankU-container {
+  background: linear-gradient(to bottom,hsla(214, 22%, 21%, 0.7), hsla(214, 22%, 21%, 0.5));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 23px 16px 32px;
+  border-radius: 14px;
+}
+
+.thankU-icon {
+  transform: scale(0.85);
+}
+
+.title2 {
+  font-size: 15px;
+  background-color: var(--star-num-bg);
+  color: hsla(25, 97%, 53%, 0.75);
+  padding: 6px 9px 5px;
+  border-radius: 15px;
+  font-weight: var(--fw-small);
+  margin: 10px auto 24px;
+}
+
+.sub-title {
+  color: var(--neutral-White);
+  font-size: 25.8px;
+  margin-bottom: 10px;
+  font-weight: var(--fw-small);
+}
+
+.content2 {
+  color: var(--neutral-Light-Grey);
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: var(--fw-small);
+}
+/* Thank you card end */
+
+/* for screen more than 1024px */
+@media only screen and (min-width: 425px) {
+
+  /* Rating card start */
+  .rating-container {
+    padding: 26px 26px 27px;
+    border-radius: 24px;
+    max-width: 388px;
+  }
+
+  .star-container {
+    padding: 1.4rem;
+  }
+
+  .title1 {
+    margin: 24px 0 14px;
+    font-size: 27.6px;
+  }
+
+  .content1 {
+    line-height: 24px;
+    margin-bottom: 22px;
+  }
+
+  .ratings {
+    display: flex;
+    gap: 1.4rem;
+    margin-bottom: 25px;
+  }
+
+  .num {
+    width: 49px;
+    height: 49px;
+  }
+
+  .btn {
+    padding: 13.4px;
+  }
+  /* Rating card end */
+
+  /*  */
+
+  /* Thank you card start */
+  .thankU-container {
+    padding: 40px 26px 40px;
+    border-radius: 24px;
+    max-width: 388px;
+  }
+
+  .thankU-icon {
+    transform: scale(0.95);
+  }
+
+  .title2 {
+    padding: 6px 14px 5px;
+    margin: 26px auto 24px;
+  }
+
+  .sub-title {
+    font-size: 25.8px;
+    margin-bottom: 10px;
+  }
+
+  .content2 {
+    line-height: 22px;
+  }
+  /* Thank you card end */
+}
