@@ -1,0 +1,333 @@
+
+/* General style */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+
+  /* ### Primary */
+  --primary-Red: hsl(0, 100%, 74%); 
+  --primary-Green: hsl(154, 59%, 51%);
+
+  /* ### Accent */
+  --accent-Blue: hsl(248, 32%, 49%);
+
+  /* ### Neutral */
+  --neutral-Dark-Blue: hsl(249, 10%, 26%);
+  --neutral-Grayish-Blue: hsl(246, 25%, 77%);
+
+  /* colors I add */
+  --transparent-white: rgba(255, 255, 255, 0.95);
+  --off-white: #fafafa;
+  --gray: #ddd;
+  --transparent-red: hsla(0, 47%, 60%, 0.8);
+
+  /* font-weight */
+  --fw-small: 400;
+  --fw-medium: 500;
+  --fw-bold: 600;
+  --fw-bolder: 700;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  margin: 4rem 1.3rem;
+  background: url('images/bg-intro-mobile.png') no-repeat center top/cover;
+  background-color: var(--primary-Red);
+}
+
+/* mobile design at 375x */
+.card-container {
+  margin: 2rem 0px;
+  color: var(--transparent-white);
+}
+
+/* headings */
+.header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 0;
+  line-height: 40px;
+  font-weight: var(--fw-bolder);
+}
+
+.header p {
+  font-size: 16px;
+  font-weight: var(--fw-medium);
+  line-height: 26px;
+  margin: 26px 0px 50px;
+}
+
+/* try it free */
+.try-container {
+  background-color: var(--accent-Blue);
+  text-align: center;
+  padding: 25px 50px;
+  border-radius: 11.5px;
+  box-shadow: 0 9px 2px 0px hsla(249, 10%, 26%, 0.3);
+  margin-bottom: 28px;
+  width: 100%;
+}
+
+.try-container P {
+  font-size: 16px;
+}
+
+.try-container span {
+  font-weight: var(--fw-bold);
+}
+
+/* form start */
+#form {
+  background-color: var(--off-white);
+  border-radius: 11.5px;
+  padding: 22px 22px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 9px 2px 0px hsla(249, 10%, 26%, 0.3);
+}
+
+.entries {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-status {
+  position: relative;
+}
+
+.entries input {
+  border: 1.5px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 18px 20px;
+  padding-right: 42px;
+  width: 100%;
+  margin-bottom: 5px;
+  color: var(--neutral-Dark-Blue);
+  font-weight: var(--fw-bold);
+}
+
+.entries input::placeholder {
+  font-weight: var(--fw-bold);
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.entries i {
+  position: absolute;
+  top: 23px;
+  right: 20px;
+  visibility: hidden;
+  transform: scale(1.4);
+}
+
+/* focus, success, fail states */
+.entries input:focus {
+  outline: 0;
+  border-color: var(--neutral-Dark-Blue);
+}
+
+.entries.success input {
+  border: 2px solid hsla(154, 59%, 51%, 0.8);
+}
+
+.entries.fail input {
+  border: 2px solid hsla(0, 47%, 60%, 0.8);
+  color: var(--primary-Red);
+}
+
+.entries.success i.fa-check-circle {
+  color: var(--primary-Green);
+  visibility: visible;
+}
+
+.entries.fail i.fa-exclamation-circle {
+  color: var(--primary-Red);
+  visibility: visible;
+}
+
+/* error message */
+.entries .errMsg {
+  color: var(--transparent-red);
+  align-self: end;
+  display: none;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.entries.fail .errMsg {
+  display: block;
+}
+
+/* footer */
+#btn {
+  background-color: var(--primary-Green);
+  border: none;
+  padding: 16px;
+  width: 100%;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: var(--transparent-white);
+  font-weight: var(--fw-medium);
+  font-family: inherit;
+  font-size: 18px;
+  box-shadow: 0 4px 2px 0px hsla(154, 54%, 39%, 0.8);
+  outline: 0;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+#btn:hover,
+#btn:active {
+  background-color: hsla(154, 59%, 51%, 0.6);
+}
+
+#btn:active {
+  background-color: var(--primary-Green);
+  transform: scale(0.995);
+}
+
+.disclaimer {
+  color: var(--neutral-Grayish-Blue);
+  font-size: 12px;
+  font-weight: var(--fw-medium);
+  text-align: center;
+  padding: 0 10px;
+  line-height: 22px;
+}
+
+.disclaimer span {
+  color: var(--primary-Red);
+  font-weight: var(--fw-bolder);
+}
+
+/* for screen more than 1024px */
+@media only screen and (min-width: 1024px) {
+
+  body {
+    margin: 0rem 10.6%;
+    background: url('images/bg-intro-desktop.png') no-repeat center top/cover;
+    background-color: var(--primary-Red);
+  }
+  
+  /* mobile design at 375x */
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+    margin: 0rem;
+    width: 100%;
+  }
+  
+  /* headings */
+  .header {
+    width: 50%;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 49px;
+    padding: 0;
+    line-height: 60px;
+  }
+  
+  .header p {
+    line-height: 26px;
+    margin: 29px 50px 0px 0px;
+  }
+
+  /* main */
+  .main {
+    width: 50%;
+  }
+  
+  /* try it free */
+  .try-container {
+    padding: 20px 50px;
+    margin-bottom: 25px;
+  }
+  
+  .try-container P {
+    font-size: 16px;
+  }
+  
+  /* form start */
+  #form {
+    padding: 38px 40px 43px;
+    gap: 16px;
+  }
+  
+  .input-status {
+    position: relative;
+    margin-bottom: 0;
+  }
+  
+  .entries input {
+    border-radius: 8px;
+    padding: 16px 35px;
+    padding-right: 50px;
+    width: 100%;
+  }
+  
+  .entries i {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    visibility: hidden;
+    transform: scale(1.4);
+  }
+  
+  /* error message */
+  .entries .errMsg {
+    font-weight: var(--fw-medium);
+    align-self: end;
+    display: none;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    font-style: italic;
+    font-size: 12px;
+  }
+  
+  /* footer */
+  #btn {
+    padding: 14px;
+    width: 100%;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 16px;
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.1s linear;
+  }
+  
+  .disclaimer {
+    font-size: 11px;
+  }
+  
+}

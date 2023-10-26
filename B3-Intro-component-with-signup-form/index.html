@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta content="author" name="Basant Soni">
+  <meta name="keywords" content=" HTML5, pure css, html, Frontend, Frontend Mentor, FrontendMentor.io, Basant Soni, sonibasant, intro component with signup form, email verification, form validation /">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <div class="card-container">
+    <div class="header">
+      <h1>
+        Learn to code by watching others
+      </h1>
+  
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </div>
+
+    <div class="main">
+
+      <div class="try-container">
+        <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+      </div>
+  
+      <form id="form" class="form">
+        
+        <div class="entries">
+          <div class="input-status">
+            <input type="text" name="first" id="first" placeholder="First Name">
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <small class="errMsg">Error Message</small>
+        </div>
+  
+        <div class="entries">
+          <div class="input-status">
+            <input type="text" name="last" id="last" placeholder="Last Name">
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <small class="errMsg">Error Message</small>
+        </div>
+  
+        <div class="entries">
+          <div class="input-status">
+            <input type="email" name="email" id="email" placeholder="Email Address">
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <small class="errMsg">Error Message</small>
+        </div>
+  
+        <div class="entries">
+          <div class="input-status">
+            <input type="password" name="password" id="pwd" placeholder="Password">
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <small class="errMsg">Error Message</small>
+        </div>
+  
+        <button type="submit" id="btn">Claim your free trial</button>
+  
+        <div class="disclaimer">By clicking the button, you are agreeing to our <span>Terms and Services</span></div>
+  
+      </form>
+    </div>
+
+  </div>
+
+</body>
+</html>
