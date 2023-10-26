@@ -61,6 +61,10 @@ Along with the above features, I also add some more.
 
 Form validation is explored in this project. Name, email validation and password are used for this.
 
+### Continued development
+
+There will be a thank you card when you click **"Terms and Services"**
+
 ## Author
 
 Basant Soni 👨‍💻
