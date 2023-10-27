@@ -1,0 +1,97 @@
+
+/* General style */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+  /* ## Colors */
+  /* ### Primary */
+  --primary-Light-Cyan: hsl(193, 38%, 86%);
+  --primary-Neon-Green: hsl(150, 100%, 66%);
+
+  /* ### Neutral */
+  --neutral-Grayish-Blue: hsl(217, 19%, 38%);
+  --neutral-Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --neutral-Dark-Blue: hsl(218, 23%, 16%);
+
+  /* font-weight */
+  --fw-quote: 800;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--neutral-Dark-Blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto 20px;
+  overflow-x: hidden;
+}
+
+main {
+  background-color: var(--neutral-Dark-Grayish-Blue);
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 20px 55px;
+}
+
+small {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--primary-Neon-Green);
+}
+
+#advice {
+  font-size: 24px;
+  font-weight: var(--fw-quote);
+  color: var(--primary-Light-Cyan);
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+#dice-container {
+  margin-top: -32px;
+  background-color: var(--primary-Neon-Green);
+  border-radius: 50%;
+  padding: 18px;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+#dice-container:hover,
+#dice-container:focus,
+#dice-container:active {
+  box-shadow: 3px 3px 10px 15px hsla(150, 100%, 66%, 0.1), -3px -3px 10px 15px hsla(150, 100%, 66%, 0.1);
+}
+
+/* for screen more than 768px */
+@media only screen and (min-width: 1024px) {
+  body {
+    margin: auto 0px;
+  }
+  
+  main {
+    max-width: 530px;
+    border-radius: 15px;
+    padding: 30px 27.3px 55px;
+  }
+  
+  small {
+    letter-spacing: 3.8px;
+  }
+  
+  #advice {
+    font-size: 28px;
+    margin-bottom: 35px;
+  }
+  
+}
