@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta content="author" name="Basant Soni">
+  <meta name="keywords" content=" HTML5, pure css, html, javascript, js, Frontend, Frontend Mentor, FrontendMentor.io, Basant Soni, sonibasant, tip calculator app, /">
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <div>
+    <img src="images/logo.svg" alt="Logo" id="logo">
+  </div>
+
+  <div class="card-container">
+    <div id="calculate-card">
+      <p>Bill</p>
+      <form id="input-area">
+        <img src="images/icon-dollar.svg" alt="Dollor" id="bill-dollar">
+        <input type="number" name="bill" id="bill-input" placeholder="0">
+      </form>
+      <p>Select Tip %</p>
+      <div class="tip">
+        <div class="percent-card num" data-value="5">5%</div>
+        <div class="percent-card num" data-value="10">10%</div>
+        <div class="percent-card num" data-value="15">15%</div>
+        <div class="percent-card num" data-value="25">25%</div>
+        <div class="percent-card num" data-value="50">50%</div>
+        <input type="number" name="custom" class="percent-card custom" placeholder="Custom">
+      </div>
+      <p>Number of People</p>
+      <form id="person-area">
+        <p class="zero">Can't be zero</p>
+        <img src="images/icon-person.svg" alt="Person Icon" id="person-icon">
+        <input type="number" name="person" class="person-input" placeholder="0">
+      </form>
+    </div>
+
+    <div id="display-card">
+
+      <div class="tip-n-total">
+        <div class="label">
+          <p>Tip Amount</p>
+          <small>/ person</small>
+        </div>
+        <div class="tips" id="tip-per-person">$0.00</div>
+      </div>
+
+      <div class="tip-n-total">
+        <div class="label">
+          <p>Total</p>
+          <small>/ person</small>
+        </div>
+        <div class="tips" id="total-per-person">$0.00</div>
+      </div>
+
+      <button type="reset" id="btn">Reset</button>
+    </div>
+  </div>
+    
+</body>
+</html>

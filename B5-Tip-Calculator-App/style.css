@@ -1,0 +1,403 @@
+
+/* General style */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+:root {
+
+  /* ### Primary */
+  --primary-Strong-cyan: hsl(172, 67%, 45%);
+
+  /* ### Neutral */
+  --neutral-Very-dark-cyan: hsl(183, 100%, 15%);
+  --neutral-Dark-grayish-cyan: hsl(186, 14%, 43%);
+  --neutral-Grayish-cyan: hsl(184, 14%, 56%);
+  --neutral-Light-grayish-cyan: hsl(185, 41%, 84%);
+  --neutral-Very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --White: hsl(0, 0%, 100%);
+
+  /* color I add */
+  --primary-light-cyan: hsla(172, 23%, 53%, 0.95);
+  --hover-light-cyan: hsl(172, 44%, 72%);
+  --dark-orange: rgb(198, 83, 16);
+
+  /* font-weight */
+  --fw: 700;
+
+  /* border radius */
+  --border-radius-small: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono', sans-serif;
+}
+
+/* mobile screen */
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--neutral-Light-grayish-cyan);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+#logo {
+  margin: 40px 0 30px;
+}
+
+.card-container {
+  background-color: var(--White);
+  border-radius:  23px 23px 0 0;
+  padding: 28px 28px 32px;
+  width: 100%;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* light-theme */
+/* calculate card start */
+#calculate-card {
+  color: var(--neutral-Dark-grayish-cyan);
+}
+
+/* bill */
+#input-area {
+  position: relative;
+}
+
+#bill-input {
+  background-color: var(--neutral-Very-light-grayish-cyan);
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 7px 22px 7px 10px;
+  border-radius: var(--border-radius-small);
+  margin: 10px 0 30px;
+  color: var(--neutral-Very-dark-cyan);
+  font-size: 24px;
+  text-align: right;
+  cursor: pointer;
+  transition: all 0.1 linear;
+  caret-color: var(--primary-Strong-cyan);
+}
+
+#bill-input::placeholder {
+  color: var(--neutral-Grayish-cyan);
+}
+
+#bill-input:hover,
+#bill-input:focus,
+#bill-input:active {
+  outline: 2px solid var(--primary-Strong-cyan);
+}
+
+#bill-dollar {
+  position: absolute;
+  top: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  left: 20px;
+}
+
+/* remove up-down arrow button */
+/* Chrome, Safari, Edge, Opera */
+#bill-input::-webkit-outer-spin-button,
+#bill-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#bill-input[type=number] {
+  -moz-appearance: textfield;
+  appearance:textfield;
+}
+
+/* tip grid */
+.tip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 12px 0 20px;
+}
+
+.percent-card {
+  background-color: var(--neutral-Very-dark-cyan);
+  padding: 8px 0px;
+  color: var(--neutral-Very-light-grayish-cyan);
+  border-radius: var(--border-radius-small);
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.1 linear;
+}
+
+.percent-card:hover,
+.percent-card:focus {
+  background-color: var(--hover-light-cyan);
+  color: var(--neutral-Very-dark-cyan);
+}
+
+.percent-card.active {
+  background-color: var(--primary-Strong-cyan);
+  color: var(--neutral-Very-dark-cyan);
+}
+
+.tip .custom {
+  border: none;
+  background-color: var(--neutral-Very-light-grayish-cyan);
+  outline: none;
+  caret-color: var(--primary-Strong-cyan);
+  text-align: right;
+  padding-right: 22px;
+  color: var(--neutral-Very-dark-cyan);
+}
+
+/* remove up-down arrow button */
+/* Chrome, Safari, Edge, Opera */
+.tip .custom::-webkit-outer-spin-button,
+.tip .custom::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.tip .custom[type=number] {
+  -moz-appearance: textfield;
+  appearance:textfield;
+}
+
+.tip .custom:hover,
+.tip .custom:focus,
+.tip .custom:active {
+  outline: 2px solid var(--primary-Strong-cyan);
+}
+
+.tip .custom::placeholder {
+  color: var(--neutral-Dark-grayish-cyan);
+  font-size: 24px;
+  text-align: right;
+  padding-right: 18px;
+}
+
+/* number of people */
+#person-area {
+  position: relative;
+}
+
+.person-input {
+  background-color: var(--neutral-Very-light-grayish-cyan);
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 7px 22px 7px 10px;
+  border-radius: var(--border-radius-small);
+  margin: 10px 0 30px;
+  color: var(--neutral-Very-dark-cyan);
+  font-size: 24px;
+  text-align: right;
+  cursor: pointer;
+  transition: all 0.1 linear;
+  caret-color: var(--primary-Strong-cyan);
+}
+
+.person-input::placeholder {
+  color: var(--neutral-Grayish-cyan);
+}
+
+#person-icon {
+  position: absolute;
+  top: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  left: 20px;
+}
+
+/* remove up-down arrow button */
+/* Chrome, Safari, Edge, Opera */
+.person-input::-webkit-outer-spin-button,
+.person-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.person-input[type=number] {
+  -moz-appearance: textfield;
+  appearance:textfield;
+}
+
+.person-input:hover,
+.person-input:focus,
+.person-input:active {
+  outline: 2px solid var(--primary-Strong-cyan);
+}
+
+.person-input.err {
+  outline: 2px solid var(--dark-orange);
+}
+
+#person-area p {
+  display: none;
+}
+
+
+/* light-theme */
+/* calculate card end */
+
+/*  */
+
+/* dark theme */
+/* display card start */
+
+#display-card {
+  background-color: var(--neutral-Very-dark-cyan);
+  padding: 35px 22px 22px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tip-n-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label p {
+  color: var(--neutral-Very-light-grayish-cyan);
+}
+
+.label small {
+  color: var(--primary-light-cyan);
+}
+
+.tips {
+  color: var(--primary-Strong-cyan);
+  font-size: 30px;
+}
+
+/* btn */
+#btn {
+  text-transform: uppercase;
+  background-color: var(--primary-Strong-cyan);
+  background-color: hsla(174, 41%, 42%, 0.1);
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 20px;
+  color: var(--neutral-Very-dark-cyan);
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#btn:hover,
+#btn:focus {
+  background-color: var(--hover-light-cyan);
+}
+
+#btn.active {
+  background-color: var(--primary-Strong-cyan);
+}
+
+/*  */
+/*  */
+/* for screen more than 1440px */
+@media only screen and (min-width: 1024px) {
+  
+  /* desktop screen */
+  body {
+    min-height: 100vh;
+    justify-content: center;
+  }
+
+  #logo {
+    margin: 20px 0 30px;
+  }
+
+  .card-container {
+    padding: 28px 35px 28px;
+    width: 65%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+  }
+
+  /* light-theme */
+  /* calculate card start */
+  #calculate-card {
+    width: 50%;
+  }
+
+  /* tip grid */
+  .tip {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 12px 0 38px;
+  }
+
+  .percent-card {
+    font-size: 24px;
+  }
+
+  .tip .custom {
+    text-align: right;
+    padding-right: 12px;
+  }
+
+  .tip .custom::placeholder {
+    text-align: right;
+    padding-right: 0px;
+  }
+
+  .person-input {
+    margin: 10px 0 15px;
+    text-align: right;
+  }
+
+  #person-area .zero {
+    position: absolute;
+    right: 0px;
+    top: -23px;
+    color: var(--dark-orange);
+    display: none;
+  }
+
+  #person-area .zero.err {
+    display: block;
+  }
+  /* light-theme */
+  /* calculate card end */
+
+  /*  */
+
+  /* dark theme */
+  /* display card start */
+  #display-card {
+    width: 50%;
+    padding: 45px 40px 32px;
+    gap: 40px;
+    position: relative;
+  }
+
+  /* btn */
+  #btn {
+    position: absolute;
+    bottom: 36px;
+    width: calc(100% - 80px);
+    margin-top: 0px;
+  }
+
+}
