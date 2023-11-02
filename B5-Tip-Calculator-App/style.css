@@ -327,6 +327,7 @@ body {
 
   .card-container {
     padding: 28px 35px 28px;
+    border-radius: 23px;
     width: 65%;
     margin-bottom: 0;
     display: flex;
