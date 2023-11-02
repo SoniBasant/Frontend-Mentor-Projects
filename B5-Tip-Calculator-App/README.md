@@ -28,11 +28,11 @@ Users should be able to:
 
 **Snapshot at desktop width 1440px > Person Zero**
 
-![](images/tip-mobile-snap-1.png)
+![](images/tip-snap-1.png)
 
 **Snapshot at desktop width 1440px > With Input**
 
-![](images/tip-mobile-snap-2.png)
+![](images/tip-snap-2.png)
 
 ### Links
 
@@ -53,7 +53,8 @@ Users should be able to:
 ### What I learned
 
 To remove up-down arrow button from input.
-For Chrome, Safari, Edge, Opera
+
+For **Chrome, Safari, Edge, Opera**
 
 ```css
 .tip .custom::-webkit-outer-spin-button,
@@ -63,7 +64,7 @@ For Chrome, Safari, Edge, Opera
 }
 ```
 
-For Firefox
+For **Firefox**
 
 ```css
 .tip .custom[type='number'] {
