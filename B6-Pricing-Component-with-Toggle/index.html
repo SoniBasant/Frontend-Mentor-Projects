@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta content="author" name="Basant Soni">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta name="keywords" content=" HTML5, pure css, html, javascript, js, Frontend, Frontend Mentor, FrontendMentor.io, Basant Soni, sonibasant, pricing component with toggle, /">
+  <title>Frontend Mentor | Pricing Component with Toggle</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <div id="main-container">
+    <header>
+      <h1>
+        Our Pricing
+      </h1>
+
+      <div class="toggle-btn-label">
+        <p>Annually</p>
+        <label for="toggle" class="switch">
+          <input type="checkbox" name="toggle" id="toggle">
+          <span class="slider"></span>
+        </label>
+        <p>Monthly</p>
+      </div>
+    </header>
+
+    <div class="card-container">
+      
+      <div class="card basic">
+        <h2>Basic</h2>
+        <span class="amt yearly">
+          <p class="charges dollar">&dollar;</p>
+          <p class="charges">199.99</p>
+        </span>
+        <span class="amt monthly">
+          <p class="charges dollar">&dollar;</p>
+          <p class="charges">19.99</p>
+        </span>
+        <div class="lines"></div>
+        <p>500 GB Storage</p>
+        <div class="lines"></div>
+        <p>2 Users Allowed</p>
+        <div class="lines"></div>
+        <p>Send up to 3 GB</p>
+        <div class="lines"></div>
+        <button type="button">Learn More</button>
+      </div>
+
+      <div class="card pro">
+        <h2>Professional</h2>
+        <span class="amt yearly">
+          <p class="charges dollar">&dollar;</p>
+          <p class="charges">249.99</p>
+        </span>
+        <span class="amt monthly">
+          <p class="charges dollar">&dollar;</p>
+          <p class="charges">24.99</p>
+        </span>
+        <div class="lines"></div>
+        <p>1 TB Storage</p>
+        <div class="lines"></div>
+        <p>5 Users Allowed</p>
+        <div class="lines"></div>
+        <p>Send up to 10 GB</p>
+        <div class="lines"></div>
+        <button type="button">Learn More</button>
+      </div>
+
+      <div class="card master">
+        <h2>Master</h2>
+        <span class="amt yearly">
+          <p class="charges dollar">&dollar;</p>
+          <p class="charges">399.99</p>
+        </span>
+        <span class="amt monthly">
+          <p class="charges dollar">&dollar;</p>
+          <p class="charges">39.99</p>
+        </span>
+        <div class="lines"></div>
+        <p>2 TB Storage</p>
+        <div class="lines"></div>
+        <p>10 Users Allowed</p>
+        <div class="lines"></div>
+        <p>Send up to 20 GB</p>
+        <div class="lines"></div>
+        <button type="button">Learn More</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

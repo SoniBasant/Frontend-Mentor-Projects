@@ -1,0 +1,372 @@
+
+/* general style */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+/* custom properties */
+:root {
+  /* ## Colors */
+  /* ### Primary */
+  /* toggle, learn more, pro card */
+  --primary-Linear-Gradient: hsl(236, 72%, 79%), hsl(237, 63%, 64%);
+  
+  /* ### Neutral */
+  /* bg */
+  --neutral-Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+
+  /* toggle btn label */
+  --neutral-Light-Grayish-Blue: hsl(234, 14%, 74%);
+
+  /* title, card title */
+  --neutral-Grayish-Blue: hsl(233, 13%, 49%);
+
+  /* charges */
+  --neutral-Dark-Grayish-Blue: hsl(232, 13%, 33%);
+
+  /* color i add */
+  /* card bg, btn text, in pro card */
+  --blueish-white: white;
+
+  /* hover btn text, pro btn text */
+  --blue-text: hsla(237, 63%, 64%, 0.9);
+
+  /* toggle yearly bg */
+  --dark-blue: hsl(237, 63%, 64%);
+
+  /* toggle monthly bg */
+  --light-blue: hsla(236, 72%, 79%, 0.6);
+
+  /* font-weight */
+  --font-weight-700: 700;
+  --font-weight-600: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* mobile screen */
+body {
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--neutral-Very-Light-Grayish-Blue);
+  background-image: url('images/bg-top.svg');
+  background-repeat: no-repeat;
+  background-position: 300% -3%;
+  background-size: 80%;
+}
+
+#main-container {
+  padding: 3rem 0;
+}
+
+/* heading and toggle switch */
+header h1 {
+  padding: 0;
+  margin: 0;
+  color: var(--neutral-Grayish-Blue);
+  font-size: 30px;
+}
+
+.toggle-btn-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin: 2.6rem 0 4.3rem;
+}
+
+.toggle-btn-label p {
+  color: var(--neutral-Light-Grayish-Blue);
+  font-size: 14px;
+  font-weight: var(--font-weight-700);
+}
+
+/* toggle button start */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 3.1rem;
+  height: 1.8rem;
+}
+  
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--dark-blue);
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 2rem;
+}
+
+/* white toggle button */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.35rem;
+  width: 1.35rem;
+  left: 4px;
+  bottom: 4px;
+  background-color: var(--neutral-Very-Light-Grayish-Blue);
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+/* background when checked */
+input:checked + .slider {
+  background-color: var(--light-blue);
+}
+
+/* movement of white toggle button */
+input:checked + .slider:before {
+  -webkit-transform: translateX(1.2rem);
+  -ms-transform: translateX(1.2rem);
+  transform: translateX(1.2rem);
+}
+
+input:hover,
+input:focus {
+  cursor: pointer;
+}
+/* toggle button end */
+/* heading and toggle end */
+
+/* card start */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+}
+
+.card {
+  background-color: var(--blueish-white);
+  padding: 1.7rem 1.7rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 2px rgba(224, 224, 239, 0.7);
+}
+
+/* fixed card width so that width don't
+  change when we change plan */
+.card.basic,
+.card.pro,
+.card.master {
+  width: 20rem;
+}
+
+.card h2 {
+  color: var(--neutral-Grayish-Blue);
+  font-size: 16px;
+  padding-top: 0.25rem;
+}
+
+.card .amt.yearly {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  padding-bottom: 1.2rem;
+}
+
+/* monthly plan */
+/* initially will not display */
+.card .amt.monthly {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  padding-bottom: 1.2rem;
+  display: none;
+}
+
+.card .charges {
+  font-size: 62px;
+  font-weight: var(--font-weight-700);
+  color: var(--neutral-Dark-Grayish-Blue);
+  position: relative;
+}
+
+.card .charges.dollar {
+  font-size: 30px;
+  padding: 18px 5px 0 0;
+}
+
+.card div ~ p {
+  color: hsla(233, 13%, 49%, 0.9);
+  font-size: 14px;
+  font-weight: var(--font-weight-600);
+  padding: 14.5px;
+}
+
+.card .lines {
+  height: 0.5px;
+  width: auto;
+  background-color: hsla(234, 14%, 74%, 0.7);
+  border-radius: 2px;
+}
+
+/* button */
+.card [type=button] {
+  width: 100%;
+  border: 1px solid var(--blueish-white);
+  font-family: inherit;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-700);
+  font-size: 12px;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 28px;
+  letter-spacing: 1px;
+  background-image: linear-gradient(to right, var(--primary-Linear-Gradient));
+  color: var(--blueish-white);
+  transition: all 0.1 ease;
+  outline: none;
+}
+
+.card [type=button]:hover,
+.card [type=button]:focus {
+  cursor: pointer;
+  border-color: var(--neutral-Grayish-Blue);
+  background-color: var(--blueish-white);
+  background-image: none;
+  color: var(--blue-text);
+}
+
+/* Professional card */
+.card.pro {
+  background-image: linear-gradient(to bottom, var(--primary-Linear-Gradient));
+}
+
+.card.pro h2,
+.card.pro .dollar,
+.card.pro .charges,
+.card.pro div ~ p {
+  color: var(--blueish-white);
+}
+
+.card.pro [type=button] {
+  background-image: none;
+  background-color: var(--blueish-white);
+  color: var(--blue-text);
+}
+
+.card.pro [type=button]:hover,
+.card.pro [type=button]:focus {
+  background-color: transparent;
+  border-color: var(--blueish-white);
+  color: var(--blueish-white);
+}
+
+.card.pro .lines {
+  background-color: hsl(235, 63%, 84%);
+}
+
+/* change pricing from Annually to Monthly */
+.amt.yearly.checked {
+  display: none;
+}
+
+.amt.monthly.checked {
+  display: flex;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* laptop screen */
+  body {
+    align-items: start;
+    background-color: var(--neutral-Very-Light-Grayish-Blue);
+    background-image: url('images/bg-top.svg'), url('images/bg-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: 100% 0%, 0% 100%;
+    background-size: 25%, 25%;
+  }
+
+  #main-container {
+    padding: 3.2rem 0 3rem;
+  }
+
+  /* heading and toggle switch */
+  header h1 {
+    font-size: 30px;
+  }
+
+  .toggle-btn-label {
+    gap: 1.2rem;
+    margin: 2.6rem 0 4.3rem;
+  }
+
+  .toggle-btn-label p {
+    font-size: 14px;
+    font-weight: var(--font-weight-700);
+  }
+
+  /* card start */
+  .card-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 0rem;
+  }
+
+  .card {
+    padding: 1.7rem 1.7rem;
+    box-shadow: 0px 2px 10px 0px rgba(224, 224, 239, 0.5);
+  }
+
+  .card.basic {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .card.pro {
+    padding: 3rem 1.7rem;
+  }
+
+  .card.master {
+    border-radius: 0 10px 10px 0;
+  }
+
+  /* fixed card width so that width don't
+  change when we change plan */
+  .card.basic,
+  .card.pro,
+  .card.master {
+    width: 330px;
+  }
+
+  .card h2 {
+    font-size: 16px;
+    padding-top: 0.25rem;
+  }
+
+  .card .amt.yearly {
+    padding: 1rem 0;
+    padding-bottom: 1.2rem;
+  }
+
+  /* button */
+  .card [type=button] {
+    padding: 12px;
+    margin-top: 28px;
+  }
+
+  /* Professional card */
+  .card.pro {
+    background-image: linear-gradient(to bottom, var(--primary-Linear-Gradient));
+  }
+
+}
