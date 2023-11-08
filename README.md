@@ -61,6 +61,7 @@ Snapshots of the projects-
 | B3. | Intro Component with Signup Form | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B3-Intro-component-with-signup-form) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B3-Intro-component-with-signup-form/index.html)      |
 | B4. | Advice Generator App | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B4-Advice-Generator-App) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B4-Advice-Generator-App/index.html)      |
 | B5. | Tip Calculator App             | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B5-Tip-Calculator-App)             | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B5-Tip-Calculator-App/index.html)                  |
+| B6. | Pricing Component with Toggle    | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B6-Pricing-Component-with-Toggle)    | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B6-Pricing-Component-with-Toggle/index.html)         |
 
 
 ## My process
