@@ -1,0 +1,573 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+/* custom properties */
+:root {
+  /* ##colors */
+  /* ###Primary colour */
+  --Blue: hsl(246, 80%, 60%);
+
+  --Light-red-work: hsl(15, 100%, 70%);
+  --Soft-blue-play: hsl(195, 74%, 62%);
+  --Light-red-study: hsl(348, 100%, 68%);
+  --Lime-green-exercise: hsl(145, 58%, 55%);
+  --Violet-social: hsl(264, 64%, 52%);
+  --Soft-orange-self-care: hsl(43, 84%, 65%);
+
+  /* ### Neutral color */
+  /* body bg */
+  --Very-dark-blue: hsl(226, 43%, 10%);
+  /* bg of text */
+  --Dark-blue: hsl(235, 46%, 20%);
+  /* nav in profile */
+  --Desaturated-blue: hsl(235, 45%, 61%);
+  /* profile info, ..., last */
+  --Pale-Blue: hsl(236, 100%, 87%);
+
+  /* colors I added */
+  --transparent-white: rgba(255, 255, 255, 0.8);
+
+  /* ## Typography */
+  /* font-weight */
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+
+  /* border-radius */
+  --border-radius: 12px;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: var(--Very-dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 3rem 0rem;
+  width: 90%;
+}
+
+/* profile card */
+.card-profile {
+  background-color: var(--Dark-blue);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  background-color: var(--Blue);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  padding: 1.7rem;
+}
+
+.profile img {
+  border: 3px solid white;
+  border-radius: 50%;
+  max-width: 100%;
+  height: 3.4rem;
+}
+
+.profile-info small,
+.profile-info p {
+  margin: 0;
+  color: var(--Pale-Blue);
+  margin-left: 10px;
+}
+
+.profile-info p {
+  font-size: 22px;
+  color: white;
+  font-weight: var(--fw-300);
+}
+
+.duration ul {
+  list-style-type: none;
+  color: var(--Desaturated-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0rem;
+  margin: 20px 10px;
+  margin-right: 0px;
+  gap: 34px;
+  font-size: 18px;
+}
+
+.duration ul li {
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.duration ul li.active {
+  color: var(--transparent-white);
+}
+
+.duration ul li:hover,
+.duration ul li:focus,
+.duration ul li:active {
+  color: var(--transparent-white);
+}
+
+/* activity cards */
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.cards {
+  border-radius: var(--border-radius);
+  padding: 2rem 0 0 0;
+  display: flex;
+}
+
+/* background color and svg image*/
+.card1 {
+  background: url('images/icon-work.svg') no-repeat right top;
+  background-size: 56px;
+  background-position: 95% -6%;
+  background-color: var(--Light-red-work);
+}
+
+.card2 {
+  background: url('images/icon-play.svg') no-repeat right top;
+  background-size: 56px;
+  background-position: 95% -6%;
+  background-color: var(--Soft-blue-play);
+}
+
+.card3 {
+  background: url('images/icon-study.svg') no-repeat right top;
+  background-size: 56px;
+  background-position: 95% -6%;
+  background-color: var(--Light-red-study);
+}
+
+.card4 {
+  background: url('images/icon-exercise.svg') no-repeat right top;
+  background-size: 56px;
+  background-position: 95% -6%;
+  background-color: var(--Lime-green-exercise);
+}
+
+.card5 {
+  background: url('images/icon-social.svg') no-repeat right top;
+  background-size: 56px;
+  background-position: 95% -6%;
+  background-color: var(--Violet-social);
+}
+
+.card6 {
+  background: url('images/icon-self-care.svg') no-repeat right top;
+  background-size: 56px;
+  background-position: 95% -6%;
+  background-color: var(--Soft-orange-self-care);
+}
+
+/* card info */
+.card-info {
+  background-color: var(--Dark-blue);
+  border-radius: var(--border-radius);
+  margin: 0;
+  flex: 1;
+  padding: 14px 14px;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+
+.card-info:hover,
+.card-info:focus {
+  background-color: hsl(236, 30%, 41%);
+}
+
+/* work, ... */
+.activity {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.activity p {
+  font-weight: var(--fw-500);
+  color: var(--transparent-white);
+  margin: 0;
+}
+
+.activity a {
+  text-decoration: none;
+  color: var(--Pale-Blue);
+  font-size: 24px;
+  margin: 0;
+}
+
+.activity a:hover,
+.activity a:focus {
+  color: white;
+}
+
+/* hrs, last */
+.hrs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  padding: 5px 0 10px;
+}
+
+.hrs p:first-child {
+  font-size: 26px;
+  color: white;
+  font-weight: var(--fw-300);
+  margin: 0;
+}
+
+.hrs p:last-child {
+  font-size: 14px;
+  color: var(--Pale-Blue);
+  font-weight: var(--fw-300);
+  margin: 0;
+}
+
+/* first */
+/* for screen width more than 1440px */
+@media only screen and (min-width: 1025px) {
+
+  :root {
+    --border-radius: 13px;
+  }
+
+  body {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    grid-template-columns: 1fr 3fr;
+    gap: 2rem;
+    margin: 2rem;
+    max-width: 70%;
+    width: 1000px;
+  }
+  
+  /* profile card */
+  .profile {
+    display: block;
+    padding-top: 2.2rem;
+    padding-bottom: 4.6rem;
+  }
+  
+  .profile img {
+    max-width: 100%;
+    height: 4rem;
+  }
+
+  .profile-info {
+    margin-top: 2rem;
+  }
+  
+  .profile-info small,
+  .profile-info p {
+    margin: 0;
+    color: var(--Pale-Blue);
+  }
+
+  .profile-info p {
+    margin-top: 6px;
+    font-size: 2.2rem;
+    color: white;
+  }
+
+  .duration ul {
+    padding: 2rem;
+    padding-top: 1.6rem;
+    margin: 0px;
+    gap: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  /* activity cards */
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+    gap: 1.5rem;
+  }
+
+  /* the one div I create in JS */
+  .card-container > div {
+    margin: 0;
+    padding: 0;
+    margin-right: 0.4rem;
+  }
+  
+  .cards {
+    padding: 2.3rem 0 0 0;
+  }
+  
+  /* background color and svg image*/
+  .card1 {
+    background-position: 90% -1%;
+  }
+  
+  .card2 {
+    background-position: 90% -1%;
+  }
+  
+  .card3 {
+    background-position: 90% -1%;
+  }
+  
+  .card4 {
+    background-position: 90% -1%;
+  }
+  
+  .card5 {
+    background-position: 90% -1%;
+  }
+  
+  .card6 {
+    background-position: 90% -1%;
+  }
+  
+  /* card info */
+  .card-info {
+    padding: 20px;
+    padding-bottom: 37px;
+  }
+
+  /* work, ... */
+  .activity {
+    padding: 0rem 0rem 1rem;
+  }
+
+  /* hrs, last */
+  .hrs {
+    align-items: flex-start;
+    padding: 0px;
+    padding-top: 10px;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  
+  .hrs p:first-child {
+    font-size: 44px;
+  }
+}
+
+/* second */
+/* for screen width above 1024px and upto 769px*/
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+
+  :root {
+    --border-radius: 12px;
+  }
+
+  .container {
+    grid-template-columns: 1fr 3fr;
+    gap: 1.4rem;
+    margin: 3rem;
+    max-width: 80%;
+  }
+  
+  /* profile card */
+  .profile {
+    display: block;
+    padding-top: 2.2rem;
+    padding-bottom: 3.8rem;
+  }
+  
+  .profile img {
+    max-width: 100%;
+    height: 3rem;
+  }
+
+  .profile-info {
+    margin-top: 1.6rem;
+  }
+  
+  .profile-info small,
+  .profile-info p {
+    margin: 0;
+    color: var(--Pale-Blue);
+  }
+
+  .profile-info p {
+    margin-top: 6px;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .duration ul {
+    padding: 2rem;
+    margin: 0px;
+    gap: 16px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  /* activity cards */
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.2rem;
+    /* row-gap: 2.7rem; */
+  }
+
+  /* the one div I create in JS */
+  .card-container > div {
+    margin: 0;
+    padding: 0;
+    margin-right: 0.3rem;
+  }
+  
+  .cards {
+    padding: 2.3rem 0 0 0;
+  }
+  
+  /* card info */
+  .card-info {
+    padding: 14px;
+    padding-bottom: 37px;
+  }
+  
+  /* work, ... */
+  .activity {
+    padding: 0rem 0rem 1rem;
+  }
+
+  /* hrs, last */
+  .hrs {
+    align-items: flex-start;
+    padding: 0px;
+    padding-top: 10px;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  
+  .hrs p:first-child {
+    font-size: 36px;
+  }
+
+  .hrs p:last-child {
+    font-size: 11px;
+  }
+}
+
+/* third */
+/* for screen width b/w 768px to 426px */
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    margin: 1rem;
+    width: auto;
+  }
+  
+  /* profile card */
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 2.2rem;
+    padding-bottom: 3.8rem;
+  }
+  
+  .profile img {
+    max-width: 100%;
+    height: 3rem;
+  }
+
+  .profile-info {
+    margin-left: 1.8rem;
+  }
+  
+  .profile-info small,
+  .profile-info p {
+    margin: 0;
+    color: var(--Pale-Blue);
+  }
+
+  .profile-info p {
+    margin-top: 6px;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .duration ul {
+    padding: 2rem;
+    margin: 0px;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  /* activity cards */
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+  /* the one div I create in JS */
+  .card-container > div {
+    margin: 0;
+    padding: 0;
+    margin-right: 0rem;
+  }
+  
+  .cards {
+    padding: 2.3rem 0 0 0;
+  }
+  
+  /* card info */
+  .card-info {
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+  
+  /* work, ... */
+  .activity {
+    padding: 0rem 0rem 1rem;
+  }
+
+  /* hrs, last */
+  .hrs {
+    align-items: flex-start;
+    padding: 0px;
+    padding-top: 10px;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  
+  .hrs p:first-child {
+    font-size: 36px;
+  }
+
+  .hrs p:last-child {
+    font-size: 11px;
+  }
+}
