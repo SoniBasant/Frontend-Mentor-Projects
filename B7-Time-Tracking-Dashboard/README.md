@@ -42,19 +42,19 @@ This project is responsive at screens >
 
 ### Screenshot
 
-**Snapshot at screen width 1440px >** Cursor on *Play* when *Weekly* data on screen (default)
+**Snapshot at screen width 1440px >** Cursor on _Play_ when _Weekly_ data on screen (default)
 
 ![](images/time-tracking-sanp-1.png)
 
-**Snapshot at screen width 768px >** Cursor on *Work* when *Monthly* data selected
+**Snapshot at screen width 768px >** Cursor on _Work_ when _Monthly_ data selected
 
 ![](images/time-tracking-sanp-2.png)
 
 ### Links
 
-- Solution URL: [Source Code]()
+- Solution URL: [Source Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B7-Time-Tracking-Dashboard)
 
-- Live Site URL: [Live Link]()
+- Live Site URL: [Live Link](https://sonibasant.github.io/Frontend-Mentor-Projects/B7-Time-Tracking-Dashboard/index.html)
 
 ## My process
 
