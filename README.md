@@ -4,6 +4,8 @@ This repository contain projects I am making on *www.frontendmentor.io*.
 
 You can see my **frontend mentor** profile [here](https://www.frontendmentor.io/profile/SoniBasant).
 
+**As I am not a PRO member in Frontend Mentor, I don't have access to any design files. So dimensions and sizes can be different. Be nice to me on that.**
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -62,6 +64,7 @@ Snapshots of the projects-
 | B4. | Advice Generator App | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B4-Advice-Generator-App) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B4-Advice-Generator-App/index.html)      |
 | B5. | Tip Calculator App             | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B5-Tip-Calculator-App)             | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B5-Tip-Calculator-App/index.html)                  |
 | B6. | Pricing Component with Toggle    | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B6-Pricing-Component-with-Toggle)    | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B6-Pricing-Component-with-Toggle/index.html)         |
+| B7. | Time Tracking Dashboard          | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B7-Time-Tracking-Dashboard)          | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B7-Time-Tracking-Dashboard/index.html)               |
 
 
 ## My process
