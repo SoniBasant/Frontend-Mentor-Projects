@@ -29,43 +29,78 @@ You will see all the projects I am making on this platform.
 
 ### Snapshots
 
-Snapshots of the projects-
+Snapshots of some of the projects-
 
-**QR Code :**
+**B7. Time Tracking Dashboard :**
 
-![QR Code](A0.%20QR-code/images/CodeSS.jpg)
+- Solution URL: [Source Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B7-Time-Tracking-Dashboard)
 
-**Product Preview Card :**
+- Live Site URL: [Live Link](https://sonibasant.github.io/Frontend-Mentor-Projects/B7-Time-Tracking-Dashboard/index.html)
 
-![Product Preview Card](A1.%20Product%20Preview%20Card/images/CodeSS.jpg)
+![Manage Landing Page](https://sonibasant.github.io/Frontend-Mentor-Projects/B7-Time-Tracking-Dashboard/images/time-tracking-sanp-1.png)
 
-**Manage Landing Page :**
+---
 
-![Manage Landing Page](A3-Manage-Landing-Page/images/Manage-LP-snap-4.png)
+**B5. Tip Calculator App :**
+
+- Solution URL: [Source Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B5-Tip-Calculator-App)
+
+- Live Site URL: [Live Link](https://sonibasant.github.io/Frontend-Mentor-Projects/B5-Tip-Calculator-App/index.html)
+
+![Manage Landing Page](https://sonibasant.github.io/Frontend-Mentor-Projects/B5-Tip-Calculator-App/images/tip-snap-2.png)
+
+---
+
+**B0. Testimonial Grid Section :**
+
+- Solution URL: [Source Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B0-Testimonials-Grid-Section)
+
+- Live Site URL: [Live Link](https://sonibasant.github.io/Frontend-Mentor-Projects/B0-Testimonials-Grid-Section/index.html)
+
+![Manage Landing Page](https://sonibasant.github.io/Frontend-Mentor-Projects/B0-Testimonials-Grid-Section/images/Testimonial-snap-1.png)
+
+---
+
+**A3. Manage Landing Page :**
+
+- Solution URL: [Source Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A3-Manage-Landing-Page)
+
+- Live Site URL: [Live Link](https://sonibasant.github.io/Frontend-Mentor-Projects/A3-Manage-Landing-Page/index.html)
+
+![Manage Landing Page](https://sonibasant.github.io/Frontend-Mentor-Projects/A3-Manage-Landing-Page/images/Manage-LP-snap-4.png)
+
+---
+
+**B4. Advice Generator App :**
+
+- Solution URL: [Source Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B4-Advice-Generator-App)
+
+- Live Site URL: [Live Link](https://sonibasant.github.io/Frontend-Mentor-Projects/B4-Advice-Generator-App/index.html)
+
+![Manage Landing Page](https://sonibasant.github.io/Frontend-Mentor-Projects/B4-Advice-Generator-App/images/Advice-snap-1.png)
 
 ### Links
 
-| No. | Project Name                    | Source Code                                                                                                      | Live Link                                                                                                              |
-| --: | ------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| A0. | QR Code                         | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A0.%20QR-code)                           | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A0.%20QR-code/qrCode.html)                                |
-| A1. | Product Preview Card            | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A1.%20Product%20Preview%20Card)          | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A1.%20Product%20Preview%20Card/productPreCard.html)       |
-| A2. | Result Summary Component        | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A2-Result-Summary-Component)        | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A2-Result-Summary-Component/resultSummaryJSON.html)      |
-| A3. | Manage Landing Page             | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A3-Manage-Landing-Page)             | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A3-Manage-Landing-Page/index.html)                   |
-| A4. | 3 Column Preview Card Component | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A4-3-Column-preview-card-component) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A4-3-Column-preview-card-component/col-preview.html) |
-| A5. | Single Price Grid Component     | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A5-Single-Price-Grid-Component)     | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A5-Single-Price-Grid-Component/singlePriceGrid.html) |
-| A6. | Order Summary Component     | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A6-Order-Summary-Component)     | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A6-Order-Summary-Component/orderSummary.html) |
-| A7. | Stats Preview Card Component    | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A7-Stats-Preview-Card-Component)    | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A7-Stats-Preview-Card-Component/statsPreview.html)   |
-| A8. | Four Card Feature Section       | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A8-Four-Card-Feature-Section)       | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A8-Four-Card-Feature-Section/fourCard.html)          |
-| A9. | Social Proof Section       | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A9-Social-Proof-Section)       | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A9-Social-Proof-Section/index.html)          |
-| B0. | Testimonials Grid Section            | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B0-Testimonials-Grid-Section)            | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B0-Testimonials-Grid-Section/index.html)                  |
-| B1. | Ping Coming Soon Page       | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B1-Ping-Coming-Soon-Page)           | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B1-Ping-Coming-Soon-Page/index.html)                 |
-| B2. | Interactive Rating Component       | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B2-Interactive-Rating-Component)           | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B2-Interactive-Rating-Component/index.html)                 |
+| No. | Project Name                     | Source Code                                                                                                  | Live Link                                                                                                         |
+| --: | -------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| A0. | QR Code                          | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A0.%20QR-code)                       | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A0.%20QR-code/qrCode.html)                           |
+| A1. | Product Preview Card             | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A1.%20Product%20Preview%20Card)      | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A1.%20Product%20Preview%20Card/productPreCard.html)  |
+| A2. | Result Summary Component         | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A2-Result-Summary-Component)         | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A2-Result-Summary-Component/resultSummaryJSON.html)  |
+| A3. | Manage Landing Page              | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A3-Manage-Landing-Page)              | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A3-Manage-Landing-Page/index.html)                   |
+| A4. | 3 Column Preview Card Component  | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A4-3-Column-preview-card-component)  | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A4-3-Column-preview-card-component/col-preview.html) |
+| A5. | Single Price Grid Component      | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A5-Single-Price-Grid-Component)      | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A5-Single-Price-Grid-Component/singlePriceGrid.html) |
+| A6. | Order Summary Component          | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A6-Order-Summary-Component)          | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A6-Order-Summary-Component/orderSummary.html)        |
+| A7. | Stats Preview Card Component     | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A7-Stats-Preview-Card-Component)     | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A7-Stats-Preview-Card-Component/statsPreview.html)   |
+| A8. | Four Card Feature Section        | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A8-Four-Card-Feature-Section)        | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A8-Four-Card-Feature-Section/fourCard.html)          |
+| A9. | Social Proof Section             | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/A9-Social-Proof-Section)             | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/A9-Social-Proof-Section/index.html)                  |
+| B0. | Testimonials Grid Section        | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B0-Testimonials-Grid-Section)        | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B0-Testimonials-Grid-Section/index.html)             |
+| B1. | Ping Coming Soon Page            | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B1-Ping-Coming-Soon-Page)            | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B1-Ping-Coming-Soon-Page/index.html)                 |
+| B2. | Interactive Rating Component     | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B2-Interactive-Rating-Component)     | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B2-Interactive-Rating-Component/index.html)          |
 | B3. | Intro Component with Signup Form | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B3-Intro-component-with-signup-form) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B3-Intro-component-with-signup-form/index.html)      |
-| B4. | Advice Generator App | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B4-Advice-Generator-App) | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B4-Advice-Generator-App/index.html)      |
-| B5. | Tip Calculator App             | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B5-Tip-Calculator-App)             | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B5-Tip-Calculator-App/index.html)                  |
+| B4. | Advice Generator App             | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B4-Advice-Generator-App)             | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B4-Advice-Generator-App/index.html)                  |
+| B5. | Tip Calculator App               | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B5-Tip-Calculator-App)               | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B5-Tip-Calculator-App/index.html)                    |
 | B6. | Pricing Component with Toggle    | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B6-Pricing-Component-with-Toggle)    | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B6-Pricing-Component-with-Toggle/index.html)         |
 | B7. | Time Tracking Dashboard          | [Code](https://github.com/SoniBasant/Frontend-Mentor-Projects/tree/main/B7-Time-Tracking-Dashboard)          | [Live](https://sonibasant.github.io/Frontend-Mentor-Projects/B7-Time-Tracking-Dashboard/index.html)               |
-
 
 ## My process
 
