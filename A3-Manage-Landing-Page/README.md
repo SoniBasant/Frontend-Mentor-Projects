@@ -151,7 +151,7 @@ Same for profile count in GitHub, I add it after I saw it in her profile.
 
 **Alex Marshall**
 
-He helped me to change colour of SVG images on hover, for which he am grateful.
+He helped me to change colour of SVG images on hover, for which I am grateful.
 
 - [GitHub](https://github.com/AlexKMarshall)
 
