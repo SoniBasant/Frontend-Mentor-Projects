@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(235, 18%, 26%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* fonts */
+@font-face {
+  font-family: 'Bold';
+  src: local('Roboto-Bold'), url('./assets/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: local('Roboto-Regular'), url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* custom styles */
+.white-space {
+  border-radius: 20px;
+}
+
+.illustration {
+  width: 19vw;
+  max-width: 100%;
+  height: auto;
+}
+
+#email {
+  margin-bottom: 10px;
+}
+
+.thankyouWhite {
+  width: 43%;
+  border-radius: 20px;
+  position: relative;
+}
+
+.dismissBtn {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1025px) {
+  body {
+    overflow: auto;
+  }
+  .illustration {
+    width: 15vw;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .white-space {
+    border-radius: 0;
+  }
+  .illustration {
+    width: 100vw;
+  }
+
+  .thankyouWhite {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+  }
+
+  .thankyouContent {
+    position: absolute;
+    top: 70px;
+    width: 83%; 
+  }
+
+  .dismissBtn {
+    position: absolute;
+    bottom: 20px;
+    width: 80%;
+  }
+}
